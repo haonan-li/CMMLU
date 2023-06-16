@@ -1,19 +1,14 @@
 # 多维语言理解评估---中文大规模多任务测量
-<h4 align="center">
-    <p>
-        <a href="https://github.com/haonan-li/CMMLU/README_zh.md">English</a> |
-        <b>简体中文</b> 
-    <p>
-</h4>
 
 <p align="center"> <img src="fig/banner_zh.jpg" style="width: 100%;" id="title-icon">       </p>
 
 <h4 align="center">
     <p>
-        <b>English</b> |
-        <a href="https://github.com/haonan-li/CMMLU/README_zh.md">简体中文</a> 
+        <a href="https://github.com/haonan-li/CMMLU/">English</a> |
+        <b>简体中文</b> 
     <p>
 </h4>
+
 
 论文：[Measuring Chinese Massive Multitask Language Understanding](https://arxiv.org/abs/2306.09212)
 
