@@ -90,8 +90,8 @@ def run_eval(model, tokenizer, eval, args):
         out_file = os.path.join(args.save_dir, f"results_{subject}.csv")
         if os.path.exists(out_file): # TODO: remove this in the future
             continue
-        dev_df = pd.read_csv(os.path.join(args.data_dir, "dev", subject + ".csv"), header=None, index_col=0)
-        test_df = pd.read_csv(os.path.join(args.data_dir, "test", subject + ".csv"), header=None, index_col=0)
+        dev_df = pd.read_csv(os.path.join(args.data_dir, "dev", subject + ".csv"), header=0, index_col=0)
+        test_df = pd.read_csv(os.path.join(args.data_dir, "test", subject + ".csv"), header=0, index_col=0)
 
         acc, preds, confs = eval(model=model,
                                  tokenizer=tokenizer,
