@@ -9,7 +9,8 @@
     <p>
 </h4>
 
-Paper: [Measuring Chinese Massive Multitask Language Understanding](https://arxiv.org/abs/2306.09212).
+Paper: [CMMLU: Measuring Chinese Massive Multitask Language Understanding](https://arxiv.org/abs/2306.09212).
+Data: [github](https://github.com/haonan-li/CMMLU/tree/master/data), [Hugging Face Hub](https://huggingface.co/datasets/haonan-li/cmmlu)
 
 
 ## Table of Contents
