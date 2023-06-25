@@ -10,7 +10,8 @@
 </h4>
 
 论文：[CMMLU: Measuring Chinese Massive Multitask Language Understanding](https://arxiv.org/abs/2306.09212)
-数据：[github](https://github.com/haonan-li/CMMLU/tree/master/data), [Hugging Face Hub](https://huggingface.co/datasets/haonan-li/cmmlu)
+
+数据：[github](https://github.com/haonan-li/CMMLU/tree/master/data), 或 [Hugging Face Hub](https://huggingface.co/datasets/haonan-li/cmmlu)
 
 
 ## 目录
