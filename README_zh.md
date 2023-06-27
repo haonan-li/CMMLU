@@ -39,14 +39,16 @@ CMMLU是一个综合性的中文评估套件，专门用于评估语言模型在
 | 模型                 | STEM  | 人文学科 | 社会科学 | 其他  | 中国特定主题 | 平均分  |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | 多语言向 |
-| [ChatGPT](https://openai.com/chatgpt)                             | **47.81** | **55.68** | **56.50** | **62.66** | **50.69** | **55.51** |
+| [GPT4](https://openai.com/gpt4)                                   | **65.23** | **72.11** | **72.06** | **74.79** | **66.12** | **70.95** |
+| [ChatGPT](https://openai.com/chatgpt)                             |   47.81   |   55.68   |   56.50   |   62.66   |   50.69   |   55.51   |
 | [Falcon-40B](https://huggingface.co/tiiuae/falcon-40b)            |   33.33   |   43.46   |   44.28   |   44.75   |   39.46   |   41.45   |
 | [LLaMA-65B](https://github.com/facebookresearch/llama)            |   34.47   |   40.24   |   41.55   |   42.88   |   37.00   |   39.80   |
 | [BLOOMZ-7B](https://github.com/bigscience-workshop/xmtf)          |   30.56   |   39.10   |   38.59   |   40.32   |   37.15   |   37.04   |
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   27.52   |   32.47   |   32.27   |   35.77   |   31.56   |   31.88   |
 | 中文向 |
-| [ChatGLM-6B](https://github.com/THUDM/GLM-130B)                   |   32.35   | **39.22** | **39.65** |   38.62   | **37.70** | **37.48** |
-| [BatGPT-15B]()                                                    | **33.49** |   35.38   |   36.31   | **42.14** |   37.00   |   36.72   |
+| [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)        | **35.25** | **48.07** | **47.88** | **46.61** | **44.14** | **44.43** |
+| [ChatGLM-6B](https://github.com/THUDM/GLM-130B)                   |   32.35   |   39.22   |   39.65   |   38.62   |   37.70   |   37.48   |
+| [BatGPT-15B]()                                                    |   34.96   |   35.45   |   36.31   |   42.14   |   37.89   |   37.16   |
 | [Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)|   27.12   |   33.18   |   34.87   |   35.10   |   32.97   |   32.63   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   27.23   |   30.41   |   28.84   |   32.56   |   28.68   |   29.57   |
 | [Chinese-GLM-10B](https://github.com/THUDM/GLM)                   |   25.49   |   27.05   |   27.42   |   29.21   |   28.05   |   27.26   |
@@ -57,13 +59,15 @@ CMMLU是一个综合性的中文评估套件，专门用于评估语言模型在
 | 模型                 | STEM  | 人文学科 | 社会科学 | 其他  | 中国特定主题 | 平均分  |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | 多语言向 |
-| [ChatGPT](https://openai.com/chatgpt)                             | **44.80** | **53.61** | **54.22** | **59.95** | **49.74** | **53.22** |
+| [GPT4](https://openai.com/gpt4)                                   | **63.16** | **69.19** | **70.26** | **73.16** | **63.47** | **68.90** |
+| [ChatGPT](https://openai.com/chatgpt)                             |   44.80   |   53.61   |   54.22   |   59.95   |   49.74   |   53.22   |
 | [BLOOMZ-7B](https://github.com/bigscience-workshop/xmtf)          |   33.03   |   45.74   |   45.74   |   46.25   |   41.58   |   42.80   |
 | [Falcon-40B](https://huggingface.co/tiiuae/falcon-40b)            |   31.11   |   41.30   |   40.87   |   40.61   |   36.05   |   38.50   |
 | [LLaMA-65B](https://github.com/facebookresearch/llama)            |   31.09   |   34.45   |   36.05   |   37.94   |   32.89   |   34.88   |
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   26.46   |   29.36   |   31.81   |   31.55   |   29.17   |   30.06   |
 | 中文向 |
-| [ChatGLM-6B](https://github.com/THUDM/GLM-130B)                   |   32.22   | **42.91** | **44.81** |   42.60   | **41.93** | **40.79** |
+| [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)        |   32.79   | **44.43** | **46.78** |   44.79   | **43.11** | **42.33** |
+| [ChatGLM-6B](https://github.com/THUDM/GLM-130B)                   |   32.22   |   42.91   |   44.81   |   42.60   |   41.93   |   40.79   |
 | [BatGPT-15B]()                                                    | **33.72** |   36.53   |   38.07   | **46.94** |   38.32   |   38.51   |
 | [Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)|   26.76   |   26.57   |   27.42   |   28.33   |   26.73   |   27.34   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   25.68   |   26.35   |   27.21   |   27.92   |   26.70   |   26.88   |
