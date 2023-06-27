@@ -9,7 +9,7 @@
 
 #SBATCH -q cpu-4
 
-cd /l/users/haonan.li/MISC/CMMLU/src
+cd /l/users/haonan.li/mygit/CMMLU/src
 
 # Slow, only test 0, 5
 

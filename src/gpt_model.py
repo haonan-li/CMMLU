@@ -60,7 +60,7 @@ if __name__ == "__main__":
     # TODO: better handle
     tokenizer_class = LlamaTokenizer if 'llama' in args.model_name_or_path else AutoTokenizer
     model_class = LlamaForCausalLM if 'llama' in args.model_name_or_path else AutoModelForCausalLM
-    tokenizer = tokenizer_class.from_pretrained(args.model_name_or_path)
+    tokenizer = tokenizer_class.from_pretrained(args.model_name_or_path, trust_remote_code=True)
     model = model_class.from_pretrained(args.model_name_or_path,
                                         trust_remote_code=True,
                                         load_in_8bit=args.load_in_8bit,

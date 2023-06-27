@@ -7,10 +7,8 @@ from tqdm import tqdm
 from time import sleep
 from mp_utils import choices, format_example, gen_prompt, run_eval
 
-with open('/home/haonan.li/.openai_api_key') as f:
-    openai.api_key = f.readline().strip()
-
-encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
+openai.api_key = "YOUR_API_KEY"
+encoding = tiktoken.encoding_for_model("gpt-4-0613")
 
 def get_response(inputs):
     timeout_counter = 0
@@ -18,7 +16,7 @@ def get_response(inputs):
     while completion is None and timeout_counter<=30:
         try:
             completion = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4",
                 messages=[
                     {"role": "user", "content": inputs}
                   ]
@@ -55,7 +53,7 @@ def eval(subject, dev_df, test_df, num_few_shot, max_length, cot, **kwargs):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_dir", "-d", type=str, default="../data")
-    parser.add_argument("--save_dir", "-s", type=str, default="../results/ChatGPT")
+    parser.add_argument("--save_dir", "-s", type=str, default="../results/GPT4")
     parser.add_argument("--num_few_shot", "-n", type=int, default=0)
     parser.add_argument("--max_length", type=int, default=4096)
     parser.add_argument("--cot", action='store_true')

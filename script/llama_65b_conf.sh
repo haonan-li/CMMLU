@@ -11,7 +11,7 @@
 #SBATCH -p gpu
 #SBATCH --qos=gpu-8
 
-cd /l/users/haonan.li/MISC/CMMLU/src
+cd /l/users/haonan.li/mygit/CMMLU/src
 
 # 0-shot
 for i in {0..1}; do

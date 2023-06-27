@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=chatgpt
+#SBATCH --job-name=gpt4
 #SBATCH --output=./stdout/slurm-%j.out
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -11,15 +11,11 @@
 
 cd /l/users/haonan.li/mygit/CMMLU/src
 
-python chatgpt.py \
-    --save_dir ../results/ChatGPT \
+python gpt4.py \
+    --save_dir ../results/GPT4 \
     --num_few_shot 0
 
-python chatgpt.py \
-    --save_dir ../results/ChatGPT \
+python gpt4.py \
+    --save_dir ../results/GPT4 \
     --num_few_shot 5
 
-python chatgpt.py \
-    --save_dir ../results/ChatGPT-cot \
-    --cot \
-    --num_few_shot 0

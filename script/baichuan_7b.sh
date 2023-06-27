@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=bactrian_llama_7b_eval
+#SBATCH --job-name=baichuan_7b_eval
 #SBATCH --output=./stdout/slurm-%j.out
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -15,10 +15,7 @@ cd /l/users/haonan.li/mygit/CMMLU/src
 
 for i in {0..5}; do
 python gpt_model.py \
-    --model_name_or_path decapoda-research/llama-7b-hf \
-    --lora_weights MBZUAI/bactrian-x-llama-7b-lora \
-    --load_in_8bit \
-    --save_dir ../results/Bactrian-LLaMA-7B \
-    --max_length 768 \
+    --model_name_or_path baichuan-inc/baichuan-7B \
+    --save_dir ../results/Baichuan-7B \
     --num_few_shot $i
 done

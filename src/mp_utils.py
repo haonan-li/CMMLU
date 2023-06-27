@@ -186,7 +186,7 @@ def get_results(result_dir=''):
         try:
             file = glob.glob(osp.join(result_dir, f"results_{subject}.csv"))[0]
         except:
-            print("Warning, result file not found")
+            print(f"Warning, {subject} result file not found")
             continue
         df = pd.read_csv(file, names=['id','question','A','B','C','D','answer','response'], index_col=0)
         # To deal with some mismath between data and answer
