@@ -4,7 +4,7 @@
 
 <h4 align="center">
     <p>
-        <a href="https://github.com/haonan-li/CMMLU/blob/master/README_zh.md">简体中文</a> |
+        <a href="https://github.com/haonan-li/CMMLU/">简体中文</a> |
         <b>English</b> 
     <p>
 </h4>
