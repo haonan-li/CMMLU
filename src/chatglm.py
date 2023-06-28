@@ -8,7 +8,8 @@ from peft import PeftModel
 from transformers import AutoModel, AutoTokenizer
 
 def eval(model, tokenizer, subject, dev_df, test_df, num_few_shot, max_length, **kwargs):
-    # TODO: for chatglm tokenizer, the first token id is the encoded token
+    # chatglm tokenizer, the first token id is the encoded token
+    # chatglm2 tokenizer, the last token id is the encoded token
     choice_ids = [tokenizer.encode(choice)[0] for choice in choices]
     cors = []
     all_conf = []
@@ -87,7 +88,6 @@ if __name__ == "__main__":
                                       trust_remote_code=True,
                                       load_in_8bit=args.load_in_8bit,
                                     ).half().cuda()
-    if 'cot' in args and args.cot:
-        run_eval(model, tokenizer, eval_chat, args)
-    else:
-        run_eval(model, tokenizer, eval, args)
+
+    # Always use Chat-style evaluation
+    run_eval(model, tokenizer, eval_chat, args)

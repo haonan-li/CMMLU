@@ -13,6 +13,15 @@
 
 cd /l/users/haonan.li/mygit/CMMLU/src
 
+# v2
+for i in {0..5}; do
+python chatglm.py \
+    --model_name_or_path THUDM/chatglm2-6b \
+    --save_dir ../results/ChatGLM2-6B \
+    --num_few_shot $i
+done
+
+
 for i in {0..5}; do
 python chatglm.py \
     --model_name_or_path THUDM/chatglm-6b \
