@@ -39,10 +39,11 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [BLOOMZ-7B](https://github.com/bigscience-workshop/xmtf)          |   30.56   |   39.10   |   38.59   |   40.32   |   37.15   |   37.04   |
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   27.52   |   32.47   |   32.27   |   35.77   |   31.56   |   31.88   |
 | 中文向 |
-| [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)           | **42.55** | **50.98** | **50.99** | **50.80** | **48.37** | **48.80** |
+| [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)      |   42.38   | **61.61** | **60.44** | **59.26** | **56.62** | **55.82** |
+| [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)           | **42.55** |   50.98   |   50.99   |   50.80   |   48.37   |   48.80   |
 | [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)        |   35.25   |   48.07   |   47.88   |   46.61   |   44.14   |   44.43   |
 | [ChatGLM-6B](https://github.com/THUDM/GLM-130B)                   |   32.35   |   39.22   |   39.65   |   38.62   |   37.70   |   37.48   |
-| [BatGPT-15B]()                                                    |   34.96   |   35.45   |   36.31   |   42.14   |   37.89   |   37.16   |
+| [BatGPT-15B](https://arxiv.org/abs/2307.00360)                    |   34.96   |   35.45   |   36.31   |   42.14   |   37.89   |   37.16   |
 | [Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)|   27.12   |   33.18   |   34.87   |   35.10   |   32.97   |   32.63   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   27.23   |   30.41   |   28.84   |   32.56   |   28.68   |   29.57   |
 | [Chinese-GLM-10B](https://github.com/THUDM/GLM)                   |   25.49   |   27.05   |   27.42   |   29.21   |   28.05   |   27.26   |
@@ -60,10 +61,11 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [LLaMA-65B](https://github.com/facebookresearch/llama)            |   31.09   |   34.45   |   36.05   |   37.94   |   32.89   |   34.88   |
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   26.46   |   29.36   |   31.81   |   31.55   |   29.17   |   30.06   |
 | 中文向 |
-| [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)           | **41.28** | **52.85** | **53.37** | **52.24** | **50.58** | **49.95** |
+| [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)      | **42.04** | **60.49** | **59.55** | **56.60** | **55.72** | **54.63** |
+| [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)           |   41.28   |   52.85   |   53.37   |   52.24   |   50.58   |   49.95   |
 | [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)        |   32.79   |   44.43   |   46.78   |   44.79   |   43.11   |   42.33   |
 | [ChatGLM-6B](https://github.com/THUDM/GLM-130B)                   |   32.22   |   42.91   |   44.81   |   42.60   |   41.93   |   40.79   |
-| [BatGPT-15B]()                                                    |   33.72   |   36.53   |   38.07   |   46.94   |   38.32   |   38.51   |
+| [BatGPT-15B](https://arxiv.org/abs/2307.00360)                    |   33.72   |   36.53   |   38.07   |   46.94   |   38.32   |   38.51   |
 | [Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)|   26.76   |   26.57   |   27.42   |   28.33   |   26.73   |   27.34   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   25.68   |   26.35   |   27.21   |   27.92   |   26.70   |   26.88   |
 | [Chinese-GLM-10B](https://github.com/THUDM/GLM)                   |   25.57   |   25.01   |   26.33   |   25.94   |   25.81   |   25.80   |
