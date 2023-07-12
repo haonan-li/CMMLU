@@ -103,7 +103,7 @@ def run_eval(model, tokenizer, eval, args):
                                  cot=args.cot if 'cot' in args else False)
         test_df['prediction'] = preds
         if 'with_conf' in args and args.with_conf:
-            test_df['conf'] = conf
+            test_df['conf'] = confs
 
         test_df.to_csv(out_file, header=None)
 
