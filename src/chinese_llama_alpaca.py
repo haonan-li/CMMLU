@@ -2,7 +2,7 @@ import os
 import torch
 import argparse
 from mp_utils import choices, format_example, gen_prompt, softmax, run_eval
-from gpt_model import eval
+from hf_causal_model import eval
 
 from peft import PeftModel
 from transformers import LlamaForCausalLM, LlamaTokenizer

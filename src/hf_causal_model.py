@@ -9,7 +9,7 @@ from transformers import LlamaForCausalLM, LlamaTokenizer
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 def eval(model, tokenizer, subject, dev_df, test_df, num_few_shot, max_length, cot):
-    choice_ids = [tokenizer.encode(choice)[-1] for choice in choices]
+    choice_ids = [tokenizer.convert_tokens_to_ids(choice) for choice in choices]
     cors = []
     all_conf = []
     all_preds = []
