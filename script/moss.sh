@@ -11,7 +11,7 @@
 #SBATCH -p gpu
 #SBATCH --qos=gpu-8
 
-cd /l/users/haonan.li/mygit/CMMLU/src
+cd ../src
 
 for i in {0..5}; do
 python moss.py \

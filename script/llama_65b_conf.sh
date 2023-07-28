@@ -11,11 +11,11 @@
 #SBATCH -p gpu
 #SBATCH --qos=gpu-8
 
-cd /l/users/haonan.li/mygit/CMMLU/src
+cd ../src
 
 # 0-shot
 for i in {0..1}; do
-python gpt_model.py \
+python hf_causal_model.py \
     --model_name_or_path huggyllama/llama-65b \
     --save_dir ../results/LLaMA-65B-conf \
     --load_in_8bit \

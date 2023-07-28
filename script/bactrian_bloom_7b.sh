@@ -11,10 +11,10 @@
 #SBATCH -p gpu
 #SBATCH --qos=gpu-8
 
-cd /l/users/haonan.li/mygit/CMMLU/src
+cd ../src
 
 for i in {0..5}; do
-python gpt_model.py \
+python hf_causal_model.py \
     --model_name_or_path bigscience/bloom-7b1 \
     --lora_weights MBZUAI/bactrian-x-bloom-7b1-lora \
     --load_in_8bit \

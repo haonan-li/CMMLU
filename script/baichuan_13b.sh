@@ -11,10 +11,10 @@
 #SBATCH -p gpu
 #SBATCH --qos=gpu-8
 
-cd /l/users/haonan.li/mygit/CMMLU/src
+cd ../src
 
 for i in {0..5}; do
-python gpt_model.py \
+python hf_causal_model.py \
     --model_name_or_path baichuan-inc/Baichuan-13B-Base \
     --save_dir ../results/Baichuan-13B-Base \
     --num_few_shot $i

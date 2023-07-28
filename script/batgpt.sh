@@ -9,9 +9,7 @@
 
 #SBATCH -q cpu-4
 
-cd /l/users/haonan.li/mygit/CMMLU/src
-
-# Slow, only test 0, 5
+cd ../src
 
 python batgpt.py \
     --save_dir ../results/BatGPT-15B \

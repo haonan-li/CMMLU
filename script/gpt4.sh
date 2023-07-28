@@ -9,7 +9,7 @@
 
 #SBATCH -q cpu-4
 
-cd /l/users/haonan.li/mygit/CMMLU/src
+cd ../src
 
 python gpt4.py \
     --save_dir ../results/GPT4 \
