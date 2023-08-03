@@ -43,7 +43,7 @@ def eval(subject, dev_df, test_df, num_few_shot, max_length, cot, **kwargs):
         pred = get_response(prompt)
         if pred and pred[0] in choices:
             cors.append(pred[0] == label)
-        all_preds.append(pred.replace("\n", ""))
+        all_preds.append(pred.replace("\n", "")) if pred is not None else "")
 
     acc = np.mean(cors)
     print("Average accuracy {:.3f} - {}".format(acc, subject))

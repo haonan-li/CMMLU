@@ -7,9 +7,7 @@ from tqdm import tqdm
 from time import sleep
 from mp_utils import choices, format_example, gen_prompt, run_eval
 
-with open('/home/haonan.li/.openai_api_key') as f:
-    openai.api_key = f.readline().strip()
-
+openai.api_key = "YOUR_API_KEY"
 encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
 
 def get_response(inputs):
@@ -45,7 +43,7 @@ def eval(subject, dev_df, test_df, num_few_shot, max_length, cot, **kwargs):
         pred = get_response(prompt)
         if pred and pred[0] in choices:
             cors.append(pred[0] == label)
-        all_preds.append(pred.replace("\n", ""))
+        all_preds.append(pred.replace("\n", "")) if pred is not None else "")
 
     acc = np.mean(cors)
     print("Average accuracy {:.3f} - {}".format(acc, subject))
