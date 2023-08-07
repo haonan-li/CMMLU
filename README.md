@@ -89,7 +89,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 我们根据每个主题在[data/dev](https://github.com/haonan-li/CMMLU/tree/master/data/dev)和[data/test](https://github.com/haonan-li/CMMLU/tree/master/data/test)目录中提供了开发和测试数据集。
 
 ## 提示
-我们在src/mp_utils目录中提供了预处理代码。其中包括我们用于生成直接回答提示和思路链 (COT) 提示的方法。
+我们在`src/mp_utils`目录中提供了预处理代码。其中包括我们用于生成直接回答提示和思路链 (COT) 提示的方法。
 
 以下是添加直接回答提示后的数据示例：
 
