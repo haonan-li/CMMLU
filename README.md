@@ -86,7 +86,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
     cd CMMLU/src
 ```
 ## 数据
-我们根据每个主题在[data/dev](https://github.com/haonan-li/CMMLU/data/dev)和[data/test](https://github.com/haonan-li/CMMLU/data/test)目录中提供了开发和测试数据集。
+我们根据每个主题在[data/dev](https://github.com/haonan-li/CMMLU/tree/master/data/dev)和[data/test](https://github.com/haonan-li/CMMLU/tree/master/data/test)目录中提供了开发和测试数据集。
 
 ## 提示
 我们在src/mp_utils目录中提供了预处理代码。其中包括我们用于生成直接回答提示和思路链 (COT) 提示的方法。
@@ -116,7 +116,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 对于思路链提示，我们将提示从“请直接给出正确答案的选项”修改为“逐步分析并选出正确答案”。
 
 #### 评估
-我们使用的每个模型的评估代码位于[src](https://github.com/haonan-li/CMMLU/src)中，运行它们的代码列在[script](https://github.com/haonan-li/CMMLU/script)目录中。
+我们使用的每个模型的评估代码位于[src](https://github.com/haonan-li/CMMLU/tree/master/src)中，运行它们的代码列在[script](https://github.com/haonan-li/CMMLU/tree/master/script)目录中。
 
 ## 引用
 
