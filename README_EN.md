@@ -87,10 +87,10 @@ To use our code in your project, clone the repository to your local machine:
     cd CMMLU/src
 ```
 #### Data
-We provide development and test dataset according to each subject in the [data/dev](https://github.com/haonan-li/CMMLU/data/dev) and [data/test](https://github.com/haonan-li/CMMLU/data/test) directory.
+We provide development and test dataset according to each subject in the [data/dev](https://github.com/haonan-li/CMMLU/tree/master/data/dev) and [data/test](https://github.com/haonan-li/CMMLU/tree/master/data/test) directory.
 
 #### Prompt
-We provide the preprocessing code in [src/mp_utils](https://github.com/haonan-li/CMMLU/src/mp_utils) directory. It includes apporach we used to generate direct answer prompt and chain-of-thought (COT) prompt.
+We provide the preprocessing code in [src/mp_utils](https://github.com/haonan-li/CMMLU/tree/master/src/mp_utils.py) directory. It includes apporach we used to generate direct answer prompt and chain-of-thought (COT) prompt.
 
 Here is an example of data after adding direct answer prompt:
 ```
@@ -117,7 +117,7 @@ Here is an example of data after adding direct answer prompt:
 For the COT prompt we modified the prompt from“请直接给出正确答案的选项 (please provide the correct answer choice directly)” to “逐步分析并选出正确答案 (Analyze step by step and select the correct answer).”
 
 #### Evaluation
-The code for evaluation of each model we used is in [src](https://github.com/haonan-li/CMMLU/src), and the code to run them is listed in [script](https://github.com/haonan-li/CMMLU/script) directory.
+The code for evaluation of each model we used is in [src](https://github.com/haonan-li/CMMLU/tree/master/src), and the code to run them is listed in [script](https://github.com/haonan-li/CMMLU/tree/master/script) directory.
 
 ## Citation
 ```
