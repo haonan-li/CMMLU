@@ -41,6 +41,7 @@ The following table displays the performance of models in the five-shot and Zero
 | [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     | **46.85** |   61.12   | **61.68** |   58.84   | **59.39** | **57.17** |
 | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)      |   42.38   | **61.61** |   60.44   | **59.26** |   56.62   |   55.82   |
 | [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)           |   42.55   |   50.98   |   50.99   |   50.80   |   48.37   |   48.80   |
+| [MiLM-1.3B](https://github.com/XiaoMi/MiLM-6B/)                   |   35.59   |   49.58   |   49.03   |   47.56   |   48.17   |   45.39   |
 | [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)        |   35.25   |   48.07   |   47.88   |   46.61   |   44.14   |   44.43   |
 | [ChatGLM-6B](https://github.com/THUDM/GLM-130B)                   |   32.35   |   39.22   |   39.65   |   38.62   |   37.70   |   37.48   |
 | [BatGPT-15B](https://arxiv.org/abs/2307.00360)                    |   34.96   |   35.45   |   36.31   |   42.14   |   37.89   |   37.16   |
@@ -63,6 +64,7 @@ The following table displays the performance of models in the five-shot and Zero
 | Chinese-oriented                                                  |
 | [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     | **48.88** | **63.49** | **66.2**  | **62.14** | **62.07** | **60.37** |
 | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)      |   42.04   |   60.49   |   59.55   |   56.60   |   55.72   |   54.63   |
+| [MiLM-1.3B](https://github.com/XiaoMi/MiLM-6B/)                   |   40.51   |   54.82   |   54.15   |   53.99   |   52.26   |   50.79   |
 | [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)           |   41.28   |   52.85   |   53.37   |   52.24   |   50.58   |   49.95   |
 | [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)        |   32.79   |   44.43   |   46.78   |   44.79   |   43.11   |   42.33   |
 | [ChatGLM-6B](https://github.com/THUDM/GLM-130B)                   |   32.22   |   42.91   |   44.81   |   42.60   |   41.93   |   40.79   |
