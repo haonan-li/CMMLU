@@ -64,7 +64,8 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [LLaMA-65B](https://github.com/facebookresearch/llama)            |   31.09   |   34.45   |   36.05   |   37.94   |   32.89   |   34.88   |
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   26.46   |   29.36   |   31.81   |   31.55   |   29.17   |   30.06   |
 | 中文向 |
-| [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     | **48.88** | **63.49** | **66.20** | **62.14** | **62.07** | **60.37** |
+| [KwaiYii-13B](https://github.com/kwai)                            |   46.82   | **69.35** |   63.42   | **64.02** | **63.26** | **61.22** |
+| [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     | **48.88** |   63.49   | **66.20** |   62.14   |   62.07   |   60.37   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   46.33   |   62.54   |   60.48   |   61.72   |   58.77   |   57.57   |
 | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)      |   42.04   |   60.49   |   59.55   |   56.60   |   55.72   |   54.63   |
 | [MiLM-1.3B](https://github.com/XiaoMi/MiLM-6B/)                   |   40.51   |   54.82   |   54.15   |   53.99   |   52.26   |   50.79   |
