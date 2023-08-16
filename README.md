@@ -39,8 +39,9 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [BLOOMZ-7B](https://github.com/bigscience-workshop/xmtf)          |   30.56   |   39.10   |   38.59   |   40.32   |   37.15   |   37.04   |
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   27.52   |   32.47   |   32.27   |   35.77   |   31.56   |   31.88   |
 | 中文向 |
-| [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      | **48.39** | **63.77** |   61.22   | **62.14** |   58.73   | **58.66** |
-| [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   46.85   |   61.12   | **61.68** |   58.84   | **59.39** |   57.17   |
+| [KwaiYii-13B](https://github.com/kwai)                 | 46.54 | **69.22** |   **64.49**  | **65.09** |   **63.1**   | **61.73** |
+| [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      | **48.39** | 63.77 |   61.22   | 62.14 |   58.73   |   58.66 |
+| [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   46.85   |   61.12   | 61.68 |   58.84   | 59.39 |   57.17   |
 | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)      |   42.38   |   61.61   |   60.44   |   59.26   |   56.62   |   55.82   |
 | [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)           |   42.55   |   50.98   |   50.99   |   50.80   |   48.37   |   48.80   |
 | [MiLM-1.3B](https://github.com/XiaoMi/MiLM-6B/)                   |   35.59   |   49.58   |   49.03   |   47.56   |   48.17   |   45.39   |
