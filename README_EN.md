@@ -77,7 +77,7 @@ The following table displays the performance of models in the five-shot and Zero
 | Random              | 25.00 | 25.00      | 25.00          | 25.00 | 25.00          | 25.00   |
 
 ## Data Format
-Each question in the dataset is a multiple-choice questions with 4 choices and only one choice as the correct answer.  The data is comma saperated .csv file. The data can be found in [data](https://github.com/haonan-li/CMMLU/data) 
+Each question in the dataset is a multiple-choice questions with 4 choices and only one choice as the correct answer.  The data is comma saperated .csv file. The data can be found in [data](data) 
 Here is an example of the data format:
 ```
     同一物种的两类细胞各产生一种分泌蛋白，组成这两种蛋白质的各种氨基酸含量相同，但排列顺序不同。其原因是参与这两种蛋白质合成的,tRNA种类不同,同一密码子所决定的氨基酸不同,mRNA碱基序列不同,核糖体成分不同,C
@@ -93,7 +93,7 @@ To use our code in your project, clone the repository to your local machine:
     cd CMMLU/src
 ```
 #### Data
-We provide development and test dataset according to each subject in the [data/dev](https://github.com/haonan-li/CMMLU/tree/master/data/dev) and [data/test](https://github.com/haonan-li/CMMLU/tree/master/data/test) directory.
+We provide development and test dataset according to each subject in the [data/dev](data/dev) and [data/test](data/test) directory.
 
 #### Prompt
 We provide the preprocessing code in [src/mp_utils](https://github.com/haonan-li/CMMLU/tree/master/src/mp_utils.py) directory. It includes apporach we used to generate direct answer prompt and chain-of-thought (COT) prompt.
@@ -123,7 +123,7 @@ Here is an example of data after adding direct answer prompt:
 For the COT prompt we modified the prompt from“请直接给出正确答案的选项 (please provide the correct answer choice directly)” to “逐步分析并选出正确答案 (Analyze step by step and select the correct answer).”
 
 #### Evaluation
-The code for evaluation of each model we used is in [src](https://github.com/haonan-li/CMMLU/tree/master/src), and the code to run them is listed in [script](https://github.com/haonan-li/CMMLU/tree/master/script) directory.
+The code for evaluation of each model we used is in [src](src), and the code to run them is listed in [script](script) directory.
 
 ## Citation
 ```
