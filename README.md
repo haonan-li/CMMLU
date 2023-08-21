@@ -1,6 +1,7 @@
 # CMMLU---中文多任务语言理解评估
 [![evaluation](https://img.shields.io/badge/OpenCompass-Support-royalblue.svg
-)](https://github.com/internLM/OpenCompass/)
+)](https://github.com/internLM/OpenCompass/) [![evaluation](https://img.shields.io/badge/lm--evaluation--harness-Support-blue
+)](https://github.com/EleutherAI/lm-evaluation-harness)
 
 <p align="center"> <img src="fig/banner_zh.jpg" style="width: 100%;" id="title-icon">       </p>
 
