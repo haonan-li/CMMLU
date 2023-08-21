@@ -78,7 +78,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | Random              | 25.00 | 25.00      | 25.00          | 25.00 | 25.00          | 25.00   |
 
 ## 数据格式
-数据集中的每个问题都是一个多项选择题，有4个选项，只有一个选项是正确答案。数据以逗号分隔的.csv文件形式存在。数据可以在以下位置找到：
+数据集中的每个问题都是一个多项选择题，有4个选项，只有一个选项是正确答案。数据以逗号分隔的.csv文件形式存在。
 这里是数据格式的示例：
 
 ```
@@ -92,7 +92,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
     cd CMMLU/src
 ```
 ## 数据
-我们根据每个主题在[data/dev](https://github.com/haonan-li/CMMLU/tree/master/data/dev)和[data/test](https://github.com/haonan-li/CMMLU/tree/master/data/test)目录中提供了开发和测试数据集。
+我们根据每个主题在[data/dev](data/dev)和[data/test](data/test)目录中提供了开发和测试数据集。
 
 ## 提示
 我们在`src/mp_utils`目录中提供了预处理代码。其中包括我们用于生成直接回答提示和思路链 (COT) 提示的方法。
@@ -122,7 +122,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 对于思路链提示，我们将提示从“请直接给出正确答案的选项”修改为“逐步分析并选出正确答案”。
 
 #### 评估
-我们使用的每个模型的评估代码位于[src](https://github.com/haonan-li/CMMLU/tree/master/src)中，运行它们的代码列在[script](https://github.com/haonan-li/CMMLU/tree/master/script)目录中。
+我们使用的每个模型的评估代码位于[src](src)中，运行它们的代码列在[script](script)目录中。
 
 ## 引用
 
