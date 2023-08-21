@@ -1,7 +1,8 @@
 # Measuring massive multitask language understanding in Chinese
 
 [![evaluation](https://img.shields.io/badge/OpenCompass-Support-royalblue.svg
-)](https://github.com/internLM/OpenCompass/)
+)](https://github.com/internLM/OpenCompass/) [![evaluation](https://img.shields.io/badge/lm--evaluation--harness-Support-blue
+)](https://github.com/EleutherAI/lm-evaluation-harness)
 
 <p align="center"> <img src="fig/banner.jpg" style="width: 100%;" id="title-icon">       </p>
 
