@@ -42,9 +42,10 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [BLOOMZ-7B](https://github.com/bigscience-workshop/xmtf)          |   30.56   |   39.10   |   38.59   |   40.32   |   37.15   |   37.04   |
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   27.52   |   32.47   |   32.27   |   35.77   |   31.56   |   31.88   |
 | 中文向 |
-| [KwaiYii-13B](https://github.com/kwai)                 | 46.54 | **69.22** |   **64.49**  | **65.09** |   **63.1**   | **61.73** |
-| [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      | **48.39** | 63.77 |   61.22   | 62.14 |   58.73   |   58.66 |
-| [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   46.85   |   61.12   | 61.68 |   58.84   | 59.39 |   57.17   |
+| [Mengzi-7B](https://www.langboat.com/)      			    | **49.59** | **75.27** | **71.36** | **70.52** | **69.23** | **66.41** |
+| [KwaiYii-13B](https://github.com/kwai)                 	    |   46.54   |   69.22   |   64.49   |   65.09   |   63.1    |   61.73   |
+| [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   48.39   |   63.77   |   61.22   |   62.14   |   58.73   |   58.66   |
+| [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   46.85   |   61.12   |   61.68   |   58.84   |   59.39   |   57.17   |
 | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)      |   42.38   |   61.61   |   60.44   |   59.26   |   56.62   |   55.82   |
 | [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)           |   42.55   |   50.98   |   50.99   |   50.80   |   48.37   |   48.80   |
 | [MiLM-1.3B](https://github.com/XiaoMi/MiLM-6B/)                   |   35.59   |   49.58   |   49.03   |   47.56   |   48.17   |   45.39   |
@@ -67,8 +68,9 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [LLaMA-65B](https://github.com/facebookresearch/llama)            |   31.09   |   34.45   |   36.05   |   37.94   |   32.89   |   34.88   |
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   26.46   |   29.36   |   31.81   |   31.55   |   29.17   |   30.06   |
 | 中文向 |
-| [KwaiYii-13B](https://github.com/kwai)                            |   46.82   | **69.35** |   63.42   | **64.02** | **63.26** | **61.22** |
-| [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     | **48.88** |   63.49   | **66.20** |   62.14   |   62.07   |   60.37   |
+| [Mengzi-7B](https://www.langboat.com/)                            | **49.49** | **75.84** | **72.32** | **70.87** | **70.00** | **66.88** |
+| [KwaiYii-13B](https://github.com/kwai)                            |   46.82   |   69.35   |   63.42   |   64.02   |   63.26   |   61.22   |
+| [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   48.88   |   63.49   |   66.20   |   62.14   |   62.07   |   60.37   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   46.33   |   62.54   |   60.48   |   61.72   |   58.77   |   57.57   |
 | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)      |   42.04   |   60.49   |   59.55   |   56.60   |   55.72   |   54.63   |
 | [MiLM-1.3B](https://github.com/XiaoMi/MiLM-6B/)                   |   40.51   |   54.82   |   54.15   |   53.99   |   52.26   |   50.79   |
