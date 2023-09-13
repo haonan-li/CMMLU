@@ -55,7 +55,7 @@ The following table displays the performance of models in the five-shot and zero
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   27.52   |   32.47   |   32.27   |   35.77   |   31.56   |   31.88   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   27.23   |   30.41   |   28.84   |   32.56   |   28.68   |   29.57   |
 | Not open-source/API models |
-| [BlueLM-7B](https://developers-ai.vivo.com.cn/)                   |   61.02   | **81.94** | **78.62** | **79.85** | **78.25** | **75.07** |
+| [vivo-BlueLM-7B](https://developers-ai.vivo.com.cn/)              |   61.02   | **81.94** | **78.62** | **79.85** | **78.25** | **75.07** |
 | [Galaxy](https://www.zuoyebang.com/)                              | **69.61** |   74.95   |   78.54   |   77.93   |   73.99   |   74.03   |
 | [Mengzi-7B](https://www.langboat.com/)                            |   49.59   |   75.27   |   71.36   |   70.52   |   69.23   |   66.41   |
 | [KwaiYii-13B](https://github.com/kwai)                            |   46.54   |   69.22   |   64.49   |   65.09   |   63.10   |   61.73   |
@@ -84,7 +84,7 @@ The following table displays the performance of models in the five-shot and zero
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   25.68   |   26.35   |   27.21   |   27.92   |   26.70   |   26.88   |
 | Not open-source/API models |
 | [Galaxy](https://www.zuoyebang.com/)                              | **69.38** |   75.33   | **78.27** | **78.19** |   73.25   | **73.85** |
-| [BlueLM-7B](https://developers-ai.vivo.com.cn/)                   |   58.72   | **77.15** |   74.86   |   76.88   | **74.58** |   71.66   |
+| [vivo-BlueLM-7B](https://developers-ai.vivo.com.cn/)              |   58.72   | **77.15** |   74.86   |   76.88   | **74.58** |   71.66   |
 | [Mengzi-7B](https://www.langboat.com/)                            |   49.49   |   75.84   |   72.32   |   70.87   |   70.00   |   66.88   |
 | [KwaiYii-13B](https://github.com/kwai)                            |   46.82   |   69.35   |   63.42   |   64.02   |   63.26   |   61.22   |
 | [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   48.88   |   63.49   |   66.20   |   62.14   |   62.07   |   60.37   |
