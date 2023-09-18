@@ -52,7 +52,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   27.52   |   32.47   |   32.27   |   35.77   |   31.56   |   31.88   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   27.23   |   30.41   |   28.84   |   32.56   |   28.68   |   29.57   |
 | 尚未开放测试的模型 |
-| [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   61.02   | **81.94** | **78.62** | **79.85** | **78.25** | **75.07** |
+| [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   61.84   | **83.16** | **78.94** | **80.75** | **78.34** | **75.82** |
 | [Galaxy](https://www.zuoyebang.com/)                              | **69.61** |   74.95   |   78.54   |   77.93   |   73.99   |   74.03   |
 | [KwaiYii-66B](https://github.com/kwai/KwaiYii)                    |   56.70   |   79.43   |   72.84   |   74.43   |   71.11   |   71.12   |
 | [Mengzi-7B](https://www.langboat.com/)                            |   49.59   |   75.27   |   71.36   |   70.52   |   69.23   |   66.41   |
@@ -80,8 +80,8 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)|   26.76   |   26.57   |   27.42   |   28.33   |   26.73   |   27.34   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   25.68   |   26.35   |   27.21   |   27.92   |   26.70   |   26.88   |
 | 尚未开放测试的模型 |
-| [Galaxy](https://www.zuoyebang.com/)                              | **69.38** |   75.33   | **78.27** | **78.19** |   73.25   | **73.85** |
-| [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   58.72   | **77.15** |   74.86   |   76.88   | **74.58** |   71.66   |
+| [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   62.30   | **83.99** | **79.29** | **80.40** | **78.73** | **76.14** |
+| [Galaxy](https://www.zuoyebang.com/)                              | **69.38** |   75.33   |   78.27   |   78.19   |   73.25   |   73.85   |
 | [KwaiYii-66B](https://github.com/kwai/KwaiYii)                    |   55.20   |   77.10   |   71.74   |   73.30   |   71.27   |   69.96   |
 | [Mengzi-7B](https://www.langboat.com/)                            |   49.49   |   75.84   |   72.32   |   70.87   |   70.00   |   66.88   |
 | [KwaiYii-13B](https://github.com/kwai/KwaiYii)                    |   46.82   |   69.35   |   63.42   |   64.02   |   63.26   |   61.22   |
