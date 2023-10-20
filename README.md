@@ -1,4 +1,4 @@
-# CMMLU---中文多任务语言理解评估
+![image](https://github.com/xyznlp/CMMLU/assets/10808269/75217950-2dc4-4f66-90ca-5dac1d103951)# CMMLU---中文多任务语言理解评估
 [![evaluation](https://img.shields.io/badge/OpenCompass-Support-royalblue.svg
 )](https://github.com/internLM/OpenCompass/) [![evaluation](https://img.shields.io/badge/lm--evaluation--harness-Support-blue
 )](https://github.com/EleutherAI/lm-evaluation-harness)
@@ -39,6 +39,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | 开放测试的模型 |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  | 60.74 | **77.79** | **75.47** | 70.81 | **70.92** | **71.10** |
 | [GPT4](https://openai.com/gpt4)                                   | **65.23** | 72.11 | 72.06 | **74.79** | 66.12 | 70.95 |
+| [XuanYuan2-13B](https://github.com/Duxiaoman-DI/XuanYuan)         |   50.07   |	66.32	|   64.11	|   59.99	|   60.55	|   60.05   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   48.39   |   63.77   |   61.22   |   62.14   |   58.73   |   58.66   |
 | [ChatGPT](https://openai.com/chatgpt)                             |   47.81   |   55.68   |   56.50   |   62.66   |   50.69   |   55.51   |
 | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)      |   42.38   |   61.61   |   60.44   |   59.26   |   56.62   |   55.82   |
