@@ -72,6 +72,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [GPT4](https://openai.com/gpt4)                                   | **63.16** | 69.19 | 70.26 | **73.16** | 63.47 | 68.90 |
 | [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)         |   50.22   |	67.55	|   63.85	|   61.17	|   61.50	|   60.51   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   46.33   |   62.54   |   60.48   |   61.72   |   58.77   |   57.57   |
+| [ZhiLu-13B](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu)                                                       |   43.53   |   61.60   |   61.40   |   60.15   |   58.97   |   57.14   |
 | [ChatGPT](https://openai.com/chatgpt)                             |   44.80   |   53.61   |   54.22   |   59.95   |   49.74   |   53.22   |
 | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)      |   42.04   |   60.49   |   59.55   |   56.60   |   55.72   |   54.63   |
 | [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)           |   41.28   |   52.85   |   53.37   |   52.24   |   50.58   |   49.95   |
