@@ -58,8 +58,9 @@ The following table displays the performance of models in the five-shot and zero
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   27.52   |   32.47   |   32.27   |   35.77   |   31.56   |   31.88   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   27.23   |   30.41   |   28.84   |   32.56   |   28.68   |   29.57   |
 | Not open-source/API models |
-| [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   61.84   | **83.16** | **78.94** | **80.75** | **78.34** | **75.82** |
-| [Galaxy](https://www.zuoyebang.com/)                              | **69.61** |   74.95   |   78.54   |   77.93   |   73.99   |   74.03   |
+| [ZW-LM]()                                                         |   72.68   | **85.84** | **83.61** | **85.68** | **82.71** | **81.73** |
+| [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   61.84   |   83.16   |   78.94   |   80.75   |   78.34   |   75.82   |
+| [Galaxy](https://www.zuoyebang.com/)                              |   69.61   |   74.95   |   78.54   |   77.93   |   73.99   |   74.03   |
 | [Mengzi-7B](https://www.langboat.com/)                            |   49.59   |   75.27   |   71.36   |   70.52   |   69.23   |   66.41   |
 | [KwaiYii-13B](https://github.com/kwai)                            |   46.54   |   69.22   |   64.49   |   65.09   |   63.10   |   61.73   |
 | [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   46.85   |   61.12   |   61.68   |   58.84   |   59.39   |   57.17   |
@@ -91,6 +92,7 @@ The following table displays the performance of models in the five-shot and zero
 | Not open-source/API models |
 | [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   62.30   | **83.99** | **79.29** | **80.40** | **78.73** | **76.14** |
 | [Galaxy](https://www.zuoyebang.com/)                              | **69.38** |   75.33   |   78.27   |   78.19   |   73.25   |   73.85   |
+| [ZW-LM]()                                                         |   63.93   |   77.95   |   76.28   |   72.99   |   72.94   |   72.74   |
 | [Mengzi-7B](https://www.langboat.com/)                            |   49.49   |   75.84   |   72.32   |   70.87   |   70.00   |   66.88   |
 | [KwaiYii-13B](https://github.com/kwai)                            |   46.82   |   69.35   |   63.42   |   64.02   |   63.26   |   61.22   |
 | [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   48.88   |   63.49   |   66.20   |   62.14   |   62.07   |   60.37   |
