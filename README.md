@@ -89,6 +89,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)|   26.76   |   26.57   |   27.42   |   28.33   |   26.73   |   27.34   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   25.68   |   26.35   |   27.21   |   27.92   |   26.70   |   26.88   |
 | 尚未开放测试的模型 |
+| [Mind GPT]()                                 |   **71.20**   |   **83.95**   | **80.59** | **82.11** |   **78.90**   | **79.20** |
 | [QuarkLLM](https://www.quark.cn/)                                 |   67.23   |   81.69   | **79.47** | **80.74** |   77.00   | **77.08** |
 | [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   62.30   | **83.99** |   79.29   |   80.40   | **78.73** |   76.14   |
 | [Galaxy](https://www.zuoyebang.com/)                              | **69.38** |   75.33   |   78.27   |   78.19   |   73.25   |   73.85   |
