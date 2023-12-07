@@ -93,9 +93,9 @@ The following table displays the performance of models in the five-shot and zero
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   25.68   |   26.35   |   27.21   |   27.92   |   26.70   |   26.88   |
 | Not open-source/API models |
 | [云天天书]()                                 |   **73.03**   |     83.78     | **82.30** | **84.04** |   **81.37**   | **80.62** |
-| [Mind GPT]()                                 |   **71.20**   |   **83.95**   |   80.59   | **82.11** |     78.90     | **79.20** |
-| [QuarkLLM](https://www.quark.cn/)                                 |   67.23   |   81.69   |   79.47   | **80.74** |   77.00   |   77.08   |
-| [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   62.30   | **83.99** |   79.29   |   80.40   | **78.73** |   76.14   |
+| [Mind GPT]()                                 |   **71.20**   |   **83.95**   | **80.59**   | **82.11** | **78.90**     | **79.20** |
+| [QuarkLLM](https://www.quark.cn/)                                 |   67.23   |   81.69   |   79.47   |   80.74   |   77.00   |   77.08   |
+| [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   62.30   | **83.99** |   79.29   |   80.40   |   78.73 |   76.14   |
 | [ZW-LM]()                                                         |   63.93   |   77.95   |   76.28   |   72.99   |   72.94   |   72.74   |
 | [Mengzi-7B](https://www.langboat.com/)                            |   49.49   |   75.84   |   72.32   |   70.87   |   70.00   |   66.88   |
 | [KwaiYii-13B](https://github.com/kwai)                            |   46.82   |   69.35   |   63.42   |   64.02   |   63.26   |   61.22   |
