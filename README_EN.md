@@ -29,17 +29,12 @@ Furthermore, numerous tasks within CMMLU have answers that are specific to China
 
 ## Leaderboard
 
-
-> **Note**
-> This benchmark aims to showcase the capabilities of large language models, in order to help the community gain a better understanding of their performance in Chinese. Considering the limitations of the testing format and to ensure fairness and transparency in the evaluation, we have decided to present models that are **already open-sourced or have open APIs** separately from those that are **not yet open-sourced or lack open APIs** in the rankings. 
-
 The following table displays the performance of models in the five-shot and zero-shot settings. 
 
 #### Five-shot
 
 | Model               | STEM | Humanities | Social Science | Other | China-specific | Average |
 |---------------------|------|------------|----------------|-------|----------------|---------|
-| Open-source/API models  |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  | 60.74 | **77.79** | **75.47** | 70.81 | **70.92** | **71.10** |
 | [GPT4](https://openai.com/gpt4)                                   | **65.23** | 72.11 | 72.06 | **74.79** | 66.12 | 70.95 |
 | [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)         |   50.07   |	66.32	|   64.11	|   59.99	|   60.55	|   60.05   |
@@ -57,7 +52,8 @@ The following table displays the performance of models in the five-shot and zero
 | [Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)|   27.12   |   33.18   |   34.87   |   35.10   |   32.97   |   32.63   |
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   27.52   |   32.47   |   32.27   |   35.77   |   31.56   |   31.88   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   27.23   |   30.41   |   28.84   |   32.56   |   28.68   |   29.57   |
-| Not open-source/API models |
+| Random                                                            |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |
+<!---
 | [Mind GPT]()                                                         | **76.76** | **87.09** | **83.74** | **84.70** | **81.82** | **82.84** |
 | [ZW-LM]()                                                         |   72.68   | 85.84 | 83.61 | 85.68 | 82.71 | 81.73 |
 | [QuarkLLM](https://www.quark.cn/)                                 |   70.97   |   85.20   |   82.88   |   82.71   |   81.12   |   80.27   |
@@ -67,13 +63,12 @@ The following table displays the performance of models in the five-shot and zero
 | [KwaiYii-13B](https://github.com/kwai)                            |   46.54   |   69.22   |   64.49   |   65.09   |   63.10   |   61.73   |
 | [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   46.85   |   61.12   |   61.68   |   58.84   |   59.39   |   57.17   |
 | [MiLM-1.3B](https://github.com/XiaoMi/MiLM-6B/)                   |   35.59   |   49.58   |   49.03   |   47.56   |   48.17   |   45.39   |
-| Random                                                            |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |
+--->
 
 #### Zero-shot
 
 | Model               | STEM | Humanities | Social Science | Other | China-specific | Average |
 |---------------------|------|------------|----------------|-------|----------------|---------|
-| Open-source/API models  |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  | 61.21 | **76.25** | **74.44** | 70.67 | **69.35** | **70.59** |
 | [GPT4](https://openai.com/gpt4)                                   | **63.16** | 69.19 | 70.26 | **73.16** | 63.47 | 68.90 |
 | [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)         |   50.22   |	67.55	|   63.85	|   61.17	|   61.50	|   60.51   |
@@ -91,7 +86,8 @@ The following table displays the performance of models in the five-shot and zero
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   26.46   |   29.36   |   31.81   |   31.55   |   29.17   |   30.06   |
 | [Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)|   26.76   |   26.57   |   27.42   |   28.33   |   26.73   |   27.34   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   25.68   |   26.35   |   27.21   |   27.92   |   26.70   |   26.88   |
-| Not open-source/API models |
+| Random                                                            |   25.00   |   25.00   |   25.00   |   25.00   |   25.     |   25.00   |
+<!---
 | [Mind GPT]()                                 |   **71.20**   |   **83.95**   | **80.59** | **82.11** |   **78.90**   | **79.20** |
 | [QuarkLLM](https://www.quark.cn/)                                 |   67.23   |   81.69   | **79.47** | **80.74** |   77.00   | **77.08** |
 | [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   62.30   | **83.99** |   79.29   |   80.40   | **78.73** |   76.14   |
@@ -101,7 +97,7 @@ The following table displays the performance of models in the five-shot and zero
 | [KwaiYii-13B](https://github.com/kwai)                            |   46.82   |   69.35   |   63.42   |   64.02   |   63.26   |   61.22   |
 | [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   48.88   |   63.49   |   66.20   |   62.14   |   62.07   |   60.37   |
 | [MiLM-1.3B](https://github.com/XiaoMi/MiLM-6B/)                   |   40.51   |   54.82   |   54.15   |   53.99   |   52.26   |   50.79   |
-| Random                                                            |   25.00   |   25.00   |   25.00   |   25.00   |   25.     |   25.00   |
+--->
 
 
 ## How to submit 
