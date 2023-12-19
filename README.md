@@ -27,8 +27,8 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 
 ## 排行榜
 
-> **Note**
-> 本测试集的目标在于展示中文大模型的部分能力，以帮助社区更好地了解其表现。考虑到测试形式的限制，并为确保测试的公平性与透明度，我们决定将**已经开源或提供开放API的模型**与**尚未开源或未提供开放API的模型**分别列在榜单中。
+> **Note：**
+> 自2023-12-16日起，对于未开放公测的API模型，我们将验证 1.模型是否有基本的指令跟随能力；2.是否存在数据污染，通过验证的模型会被更新在榜单。
 
 以下表格显示了模型在 five-shot 和 zero-shot 测试下的表现。
 
@@ -37,11 +37,11 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | 模型                 | STEM  | 人文学科 | 社会科学 | 其他  | 中国特定主题 | 平均分  |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | 开放测试的模型 |
-| [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  | 60.74 | **77.79** | **75.47** | 70.81 | **70.92** | **71.10** |
-| [GPT4](https://openai.com/gpt4)                                   | **65.23** | 72.11 | 72.06 | **74.79** | 66.12 | 70.95 |
-| [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)         |   50.07   |	66.32	|   64.11	|   59.99	|   60.55	|   60.05   |
+| [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   60.74   | **77.79** | **75.47** |   70.81   | **70.92** | **71.10** |
+| [GPT4](https://openai.com/gpt4)                                   | **65.23** |   72.11   |   72.06   | **74.79** |   66.12   |   70.95   |
+| [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.07   |	  66.32	  |   64.11	  |   59.99	  |   60.55	  |   60.05   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   48.39   |   63.77   |   61.22   |   62.14   |   58.73   |   58.66   |
-| [ZhiLu-13B](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu)                                                       |   44.26   |   61.54   |   60.25   |   61.14   |   57.14   |   57.16   |
+| [ZhiLu-13B](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu)   |   44.26   |   61.54   |   60.25   |   61.14   |   57.14   |   57.16   |
 | [ChatGPT](https://openai.com/chatgpt)                             |   47.81   |   55.68   |   56.50   |   62.66   |   50.69   |   55.51   |
 | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)      |   42.38   |   61.61   |   60.44   |   59.26   |   56.62   |   55.82   |
 | [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)           |   42.55   |   50.98   |   50.99   |   50.80   |   48.37   |   48.80   |
@@ -54,9 +54,9 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)|   27.12   |   33.18   |   34.87   |   35.10   |   32.97   |   32.63   |
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   27.52   |   32.47   |   32.27   |   35.77   |   31.56   |   31.88   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   27.23   |   30.41   |   28.84   |   32.56   |   28.68   |   29.57   |
-| 尚未开放测试的模型 |
-| [Mind GPT]()                                                         | **76.76** | **87.09** | **83.74** | **84.70** | **81.82** | **82.84** |
-| [ZW-LM]()                                                         | 72.68 | 85.84 | 83.61 | 85.68 | 82.71 | 81.73 |
+| 未开放测试的模型 |
+| [Mind GPT]()                                                      | **76.76** | **87.09** | **83.74** |   84.70   |   81.82   | **82.84** |
+| [ZW-LM]()                                                         |   72.68   |   85.84   |   83.61   | **85.68** | **82.71** |   81.73   |
 | [QuarkLLM](https://www.quark.cn/)                                 |   70.97   |   85.20   |   82.88   |   82.71   |   81.12   |   80.27   |
 | [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   61.84   |   83.16   |   78.94   |   80.75   |   78.34   |   75.82   |
 | [Galaxy](https://www.zuoyebang.com/)                              |   69.61   |   74.95   |   78.54   |   77.93   |   73.99   |   74.03   |
@@ -67,15 +67,16 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [MiLM-1.3B](https://github.com/XiaoMi/MiLM-6B/)                   |   35.59   |   49.58   |   49.03   |   47.56   |   48.17   |   45.39   |
 | Random                                                            |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |
 
+
 #### Zero-shot
 | 模型                 | STEM  | 人文学科 | 社会科学 | 其他  | 中国特定主题 | 平均分  |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | 开放测试的模型 |
-| [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  | 61.21 | **76.25** | **74.44** | 70.67 | **69.35** | **70.59** |
-| [GPT4](https://openai.com/gpt4)                                   | **63.16** | 69.19 | 70.26 | **73.16** | 63.47 | 68.90 |
-| [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)         |   50.22   |	67.55	|   63.85	|   61.17	|   61.50	|   60.51   |
+| [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   61.21   | **76.25** | **74.44** |   70.67   | **69.35** | **70.59** |
+| [GPT4](https://openai.com/gpt4)                                   | **63.16** |   69.19   |   70.26   | **73.16** |   63.47   |   68.90   |
+| [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.22   |	  67.55	  |   63.85	  |   61.17	  |   61.50	  |   60.51   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   46.33   |   62.54   |   60.48   |   61.72   |   58.77   |   57.57   |
-| [ZhiLu-13B](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu)                                                       |   43.53   |   61.60   |   61.40   |   60.15   |   58.97   |   57.14   |
+| [ZhiLu-13B](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu)  |   43.53   |   61.60   |   61.40   |   60.15   |   58.97   |   57.14   |
 | [ChatGPT](https://openai.com/chatgpt)                             |   44.80   |   53.61   |   54.22   |   59.95   |   49.74   |   53.22   |
 | [Baichuan-13B](https://github.com/baichuan-inc/Baichuan-13B)      |   42.04   |   60.49   |   59.55   |   56.60   |   55.72   |   54.63   |
 | [ChatGLM2-6B](https://huggingface.co/THUDM/chatglm2-6b)           |   41.28   |   52.85   |   53.37   |   52.24   |   50.58   |   49.95   |
@@ -88,11 +89,11 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   26.46   |   29.36   |   31.81   |   31.55   |   29.17   |   30.06   |
 | [Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)|   26.76   |   26.57   |   27.42   |   28.33   |   26.73   |   27.34   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   25.68   |   26.35   |   27.21   |   27.92   |   26.70   |   26.88   |
-| 尚未开放测试的模型 |
-| [云天天书]()                                 |   **73.03**   |     83.78     | **82.30** | **84.04** |   **81.37**   | **80.62** |
-| [Mind GPT]()                                 |   **71.20**   |   **83.95**   | **80.59**   | **82.11** | **78.90**     | **79.20** |
+| 未开放测试的模型 |
+| [云天天书]()                                                       | **73.03** |   83.78   | **82.30** | **84.04** | **81.37** | **80.62** |
+| [Mind GPT]()                                                      |   71.20   |   83.95   |   80.59   |   82.11   |   78.90   |   79.20   |
 | [QuarkLLM](https://www.quark.cn/)                                 |   67.23   |   81.69   |   79.47   |   80.74   |   77.00   |   77.08   |
-| [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   62.30   | **83.99** |   79.29   |   80.40   |   78.73 |   76.14   |
+| [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   62.30   | **83.99** |   79.29   |   80.40   |   78.73   |   76.14   |
 | [Galaxy](https://www.zuoyebang.com/)                              |   69.38   |   75.33   |   78.27   |   78.19   |   73.25   |   73.85   |
 | [ZW-LM]()                                                         |   63.93   |   77.95   |   76.28   |   72.99   |   72.94   |   72.74   |
 | [KwaiYii-66B](https://github.com/kwai/KwaiYii)                    |   55.20   |   77.10   |   71.74   |   73.30   |   71.27   |   69.96   |
@@ -103,10 +104,11 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | Random                                                            |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |
 
 
+
 ## 如何提交测试结果
 
 * 对于开源或开放API的模型，可直接提交拉取请求（可以选择同时在`src`目录下更新测试代码）。
-* 如模型为开源或开放公测，请将数据更新在**尚未开放测试的模型**，并提交拉取请求。
+* 如模型未开放公测，请发送测试代码到haonan.li@librai.tech，同时将测试结果更新在榜单，并提交拉取请求。我们会在验证结果的真实性之后更新榜单。
 
 ## 数据
 我们根据每个主题在[data](data)目录中提供了开发和测试数据集。您也可以通过[Hugging Face](https://huggingface.co/datasets/haonan-li/cmmlu)或取我们的数据。
