@@ -36,9 +36,10 @@ The following table displays the performance of models in the five-shot and zero
 | Model               | STEM | Humanities | Social Science | Other | China-specific | Average |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | Open Access Models |
-| [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   60.74   | **77.79** | **75.47** |   70.81   | **70.92** | **71.10** |
-| [GPT4](https://openai.com/gpt4)                                   | **65.23** |   72.11   |   72.06   | **74.79** |   66.12   |   70.95   |
-| [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.07   |	  66.32	  |   64.11	  |   59.99	  |   60.55	  |   60.05   |
+| [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   61.36   | **79.83** | **77.80** | **78.89** | **76.74** | **74.27** |
+| [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   60.74   |   77.79   |   75.47   |   70.81   |   70.92   |   71.10   |
+| [GPT4](https://openai.com/gpt4)                                   | **65.23** |   72.11   |   72.06   |   74.79   |   66.12   |   70.95   |
+| [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.07   |   66.32	|   64.11	|   59.99	|   60.55   |   60.05   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   48.39   |   63.77   |   61.22   |   62.14   |   58.73   |   58.66   |
 | [ZhiLu-13B](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu)   |   44.26   |   61.54   |   60.25   |   61.14   |   57.14   |   57.16   |
 | [ChatGPT](https://openai.com/chatgpt)                             |   47.81   |   55.68   |   56.50   |   62.66   |   50.69   |   55.51   |
@@ -57,7 +58,6 @@ The following table displays the performance of models in the five-shot and zero
 | [Mind GPT]()                                                      | **76.76** | **87.09** | **83.74** |   84.70   |   81.82   | **82.84** |
 | [ZW-LM]()                                                         |   72.68   |   85.84   |   83.61   | **85.68** | **82.71** |   81.73   |
 | [QuarkLLM](https://www.quark.cn/)                                 |   70.97   |   85.20   |   82.88   |   82.71   |   81.12   |   80.27   |
-| [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   61.84   |   83.16   |   78.94   |   80.75   |   78.34   |   75.82   |
 | [Galaxy](https://www.zuoyebang.com/)                              |   69.61   |   74.95   |   78.54   |   77.93   |   73.99   |   74.03   |
 | [Mengzi-7B](https://www.langboat.com/)                            |   49.59   |   75.27   |   71.36   |   70.52   |   69.23   |   66.41   |
 | [KwaiYii-13B](https://github.com/kwai)                            |   46.54   |   69.22   |   64.49   |   65.09   |   63.10   |   61.73   |
@@ -71,9 +71,10 @@ The following table displays the performance of models in the five-shot and zero
 | Model               | STEM | Humanities | Social Science | Other | China-specific | Average |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | Open Access Models |
-| [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   61.21   | **76.25** | **74.44** |   70.67   | **69.35** | **70.59** |
+| [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   62.08   | **81.29** | **79.38** | **79.56** | **77.69** | **75.40** |
+| [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   61.21   |   76.25   |   74.44   |   70.67   |   69.35   |   70.59   |
 | [GPT4](https://openai.com/gpt4)                                   | **63.16** |   69.19   |   70.26   | **73.16** |   63.47   |   68.90   |
-| [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.22   |  	67.55   |   63.85	  |   61.17	  |   61.50	  |   60.51   |
+| [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.22   |  	67.55   |   63.85	|   61.17	|   61.50	|   60.51   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   46.33   |   62.54   |   60.48   |   61.72   |   58.77   |   57.57   |
 | [ZhiLu-13B](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu)  |   43.53   |   61.60   |   61.40   |   60.15   |   58.97   |   57.14   |
 | [ChatGPT](https://openai.com/chatgpt)                             |   44.80   |   53.61   |   54.22   |   59.95   |   49.74   |   53.22   |
@@ -92,7 +93,6 @@ The following table displays the performance of models in the five-shot and zero
 | [云天天书]()                                                       | **73.03** |   83.78   | **82.30** | **84.04** | **81.37** | **80.62** |
 | [Mind GPT]()                                                      |   71.20   |   83.95   |   80.59   |   82.11   |   78.90   |   79.20   |
 | [QuarkLLM](https://www.quark.cn/)                                 |   67.23   |   81.69   |   79.47   |   80.74   |   77.00   |   77.08   |
-| [vivoLM-7B](https://developers-ai.vivo.com.cn/)                   |   62.30   | **83.99** |   79.29   |   80.40   |   78.73   |   76.14   |
 | [Galaxy](https://www.zuoyebang.com/)                              |   69.38   |   75.33   |   78.27   |   78.19   |   73.25   |   73.85   |
 | [ZW-LM]()                                                         |   63.93   |   77.95   |   76.28   |   72.99   |   72.94   |   72.74   |
 | [KwaiYii-66B](https://github.com/kwai/KwaiYii)                    |   55.20   |   77.10   |   71.74   |   73.30   |   71.27   |   69.96   |
