@@ -36,6 +36,7 @@ The following table displays the performance of models in the five-shot and zero
 | Model               | STEM | Humanities | Social Science | Other | China-specific | Average |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | Open Access Models |
+| [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)                |   76.85   | **86.46** | **81.65** | **84.57** | **82.85** | **82.46** |
 | [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   61.36   | **79.83** | **77.80** | **78.89** | **76.74** | **74.27** |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   60.74   |   77.79   |   75.47   |   70.81   |   70.92   |   71.10   |
 | [GPT4](https://openai.com/gpt4)                                   | **65.23** |   72.11   |   72.06   |   74.79   |   66.12   |   70.95   |
@@ -71,6 +72,7 @@ The following table displays the performance of models in the five-shot and zero
 | Model               | STEM | Humanities | Social Science | Other | China-specific | Average |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | Open Access Models |
+| [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)                |   76.69   | **86.26** | **81.71** | **84.47** | **83.13** | **82.44** |
 | [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   62.08   | **81.29** | **79.38** | **79.56** | **77.69** | **75.40** |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   61.21   |   76.25   |   74.44   |   70.67   |   69.35   |   70.59   |
 | [GPT4](https://openai.com/gpt4)                                   | **63.16** |   69.19   |   70.26   | **73.16** |   63.47   |   68.90   |
