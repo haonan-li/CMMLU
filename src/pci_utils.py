@@ -25,7 +25,6 @@ def load_json(json_file, multi=True):
             data = json.load(f)
         return data
 
-
 def save_json(json_data, json_file, multi=True, indent=None):
     if multi:
         with open(json_file, encoding='utf-8', mode='w') as f:
@@ -35,18 +34,6 @@ def save_json(json_data, json_file, multi=True, indent=None):
     else:
         with open(json_file, encoding='utf-8', mode='w') as f:
             json.dump(json_data, f, ensure_ascii=False, indent=indent)
-
-
-def load_data(item, data_dir="../data/PCI-TransGPT/"):
-    if data_dir is None:
-        data_dir = "../data/PCI-TransGPT/"
-    files = [f for f in os.listdir(data_dir) if f.endswith(".jsonl") and item+".jsonl" == f]
-    if len(files) != 1:
-        raise ValueError(f"Data files do not match: {len(files)}")
-
-    data_file = files[0]
-    data = load_json(data_dir + data_file, )
-    return data
 
 def extract_choice(response, choice_desc):
     # choice_desc: 选项信息，包括选项字母和描述
