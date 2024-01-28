@@ -25,7 +25,10 @@ CMMLU is a comprehensive evaluation benchmark specifically designed to evaluate 
 CMMLU covers a wide range of subjects, comprising 67 topics that span from elementary to advanced professional levels. It includes subjects that require computational expertise, such as physics and mathematics, as well as disciplines within humanities and social sciences. 
 Many of these tasks are not easily translatable from other languages due to their specific contextual nuances and wording. 
 Furthermore, numerous tasks within CMMLU have answers that are specific to China and may not be universally applicable or considered correct in other regions or languages.
+
+Note: if you need Ancient Chiense Evaluation, please refer to [ACLUE](https://github.com/isen-zhang/ACLUE).
 <p align="center"> <img src="fig/logo.jpg" style="width: 85%;" id="title-icon">       </p>
+
 
 ## Leaderboard
 
