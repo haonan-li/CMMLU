@@ -39,11 +39,12 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | 模型                 | STEM  | 人文学科 | 社会科学 | 其他  | 中国特定主题 | 平均分  |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | 开放测试的模型 |
-| [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.85   | **86.46** | **81.65** | **84.57** | **82.85** | **82.46** |
+| [XuanYuan-13B](https://modelscope.cn/models/Duxiaoman-DI/XuanYuan-13B/)  |   **83.94**   |   **92.02**   |   **88.49**   |   **89.90**   |   **86.38**   |   **88.34**   |
+| [XuanYuan-6B](https://modelscope.cn/models/Duxiaoman-DI/XuanYuan-6B/)  |   79.24   |   89.56   |   87.86   |   86.91   |   86.30   |   85.79   |
+| [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.85   |   86.46   |   81.65   |   84.57   |   82.85   |   82.46 |
 | [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   61.36   |   79.83   |   77.80   |   78.89   |   76.74   |   74.27   |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   60.74   |   77.79   |   75.47   |   70.81   |   70.92   |   71.10   |
-| [GPT4](https://openai.com/gpt4)                                   | **65.23** |   72.11   |   72.06   |   74.79   |   66.12   |   70.95   |
-| [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.07   |	66.32	|   64.11   |   59.99	|   60.55	|   60.05   |
+| [GPT4](https://openai.com/gpt4)                                   |   65.23   |   72.11   |   72.06   |   74.79   |   66.12   |   70.95   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   48.39   |   63.77   |   61.22   |   62.14   |   58.73   |   58.66   |
 | [ZhiLu-13B](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu)   |   44.26   |   61.54   |   60.25   |   61.14   |   57.14   |   57.16   |
 | [ChatGPT](https://openai.com/chatgpt)                             |   47.81   |   55.68   |   56.50   |   62.66   |   50.69   |   55.51   |
