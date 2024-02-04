@@ -39,8 +39,6 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | 模型                 | STEM  | 人文学科 | 社会科学 | 其他  | 中国特定主题 | 平均分  |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | 开放测试的模型 |
-| [XuanYuan-13B](https://modelscope.cn/models/Duxiaoman-DI/XuanYuan-13B/)  |   **83.94**   |   **92.02**   |   **88.49**   |   **89.90**   |   **86.38**   |   **88.34**   |
-| [XuanYuan-6B](https://modelscope.cn/models/Duxiaoman-DI/XuanYuan-6B/)  |   79.24   |   89.56   |   87.86   |   86.91   |   86.30   |   85.79   |
 | [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.85   |   86.46   |   81.65   |   84.57   |   82.85   |   82.46 |
 | [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   61.36   |   79.83   |   77.80   |   78.89   |   76.74   |   74.27   |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   60.74   |   77.79   |   75.47   |   70.81   |   70.92   |   71.10   |
