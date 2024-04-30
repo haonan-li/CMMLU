@@ -41,6 +41,7 @@ The following table displays the performance of models in the five-shot and zero
 | Open Access Models |
 | [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.85   | **86.46** | **81.65** | **84.57** | **82.85** | **82.46** |
 | [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   61.36   |   79.83   |   77.80   |   78.89   |   76.74   |   74.27   |
+| [Qwen1.5-7B](https://github.com/QwenLM/Qwen1.5)                   |   63.64   |   76.42   |   74.69   |   75.91   |   73.43   |   72.50   |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   60.74   |   77.79   |   75.47   |   70.81   |   70.92   |   71.10   |
 | [GPT4](https://openai.com/gpt4)                                   | **65.23** |   72.11   |   72.06   |   74.79   |   66.12   |   70.95   |
 | [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.07   |   66.32	|   64.11	|   59.99	|   60.55   |   60.05   |
@@ -78,6 +79,7 @@ The following table displays the performance of models in the five-shot and zero
 | Open Access Models |
 | [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.69   | **86.26** | **81.71** | **84.47** | **83.13** | **82.44** |
 | [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   62.08   |   81.29   |   79.38   |   79.56   |   77.69   |   75.40   |
+| [Qwen1.5-7B](https://github.com/QwenLM/Qwen1.5)                   |   62.87   |   74.90   |   72.65   |   74.64   |   71.94   |   71.05   |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   61.21   |   76.25   |   74.44   |   70.67   |   69.35   |   70.59   |
 | [GPT4](https://openai.com/gpt4)                                   | **63.16** |   69.19   |   70.26   | **73.16** |   63.47   |   68.90   |
 | [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.22   |  	67.55   |   63.85	|   61.17	|   61.50	|   60.51   |
