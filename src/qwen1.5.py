@@ -119,7 +119,7 @@ if __name__ == "__main__":
     model = AutoModelForCausalLM.from_pretrained(
         args.model_name_or_path,
         trust_remote_code=True,
-        device_map="cuda",
+        device_map="auto",
         torch_dtype=torch.float16
     )
     model.generation_config = GenerationConfig.from_pretrained(
