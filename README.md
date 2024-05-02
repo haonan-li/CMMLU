@@ -39,13 +39,14 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | 模型                 | STEM  | 人文学科 | 社会科学 | 其他  | 中国特定主题 | 平均分  |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | 开放测试的模型 |
-| [Qwen1.5-72B](https://modelscope.cn/models/qwen/Qwen1.5-72B)      |   76.83   | **88.37** | **84.15** | **86.06** | **83.77** | **83.54** |
-| [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    | **76.85** |   86.46   |   81.65   |   84.57   |   82.85   |   82.46   |
+| [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    | **81.59** | **92.41** | **89.14** | **91.19** | **89.02** | **88.32** |
+| [Qwen1.5-72B](https://modelscope.cn/models/qwen/Qwen1.5-72B)      |   76.83   |   88.37   |   84.15   |   86.06   |   83.77   |   83.54   |
+| [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.85   |   86.46   |   81.65   |   84.57   |   82.85   |   82.46   |
 | [Qwen1.5-32B](https://modelscope.cn/models/qwen/Qwen1.5-32B)      |   76.25   |   86.31   |   83.42   |   83.82   |   82.84   |   82.25   |
 | [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   61.36   |   79.83   |   77.80   |   78.89   |   76.74   |   74.27   |
 | [Qwen1.5-7B](https://github.com/QwenLM/Qwen1.5)                   |   63.64   |   76.42   |   74.69   |   75.91   |   73.43   |   72.50   |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   60.74   |   77.79   |   75.47   |   70.81   |   70.92   |   71.10   |
-| [GPT4](https://openai.com/gpt4)                                   | **65.23** |   72.11   |   72.06   |   74.79   |   66.12   |   70.95   |
+| [GPT4](https://openai.com/gpt4)                                   |   65.23   |   72.11   |   72.06   |   74.79   |   66.12   |   70.95   |
 | [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.07   |	66.32	|   64.11   |   59.99	|   60.55	|   60.05   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   48.39   |   63.77   |   61.22   |   62.14   |   58.73   |   58.66   |
 | [ZhiLu-13B](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu)   |   44.26   |   61.54   |   60.25   |   61.14   |   57.14   |   57.16   |
@@ -79,13 +80,14 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | 模型                 | STEM  | 人文学科 | 社会科学 | 其他  | 中国特定主题 | 平均分  |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | 开放测试的模型 |
-| [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    | **76.69** | **86.26** |   81.71   | **84.47** | **83.13** | **82.44** |
-| [Qwen1.5-72B](https://modelscope.cn/models/qwen/Qwen1.5-72B)      |   75.07   |   86.15   | **83.06** |   83.84   |   82.78   |   81.81   |
+| [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    | **80.84** | **91.51** | **89.01** | **89.99** | **88.64** | **87.64** |
+| [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.69   |   86.26   |   81.71   |   84.47   |   83.13   |   82.44   |
+| [Qwen1.5-72B](https://modelscope.cn/models/qwen/Qwen1.5-72B)      |   75.07   |   86.15   |   83.06   |   83.84   |   82.78   |   81.81   |
 | [Qwen1.5-32B](https://modelscope.cn/models/qwen/Qwen1.5-32B)      |   74.82   |   85.13   |   82.49   |   84.34   |   82.47   |   81.47   |
 | [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   62.08   |   81.29   |   79.38   |   79.56   |   77.69   |   75.40   |
 | [Qwen1.5-7B](https://github.com/QwenLM/Qwen1.5)                   |   62.87   |   74.90   |   72.65   |   74.64   |   71.94   |   71.05   |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   61.21   |   76.25   |   74.44   |   70.67   |   69.35   |   70.59   |
-| [GPT4](https://openai.com/gpt4)                                   | **63.16** |   69.19   |   70.26   |   73.16   |   63.47   |   68.90   |
+| [GPT4](https://openai.com/gpt4)                                   |   63.16   |   69.19   |   70.26   |   73.16   |   63.47   |   68.90   |
 | [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.22   |	67.55	|   63.85	|   61.17   |   61.50	|   60.51   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   46.33   |   62.54   |   60.48   |   61.72   |   58.77   |   57.57   |
 | [ZhiLu-13B](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu)  |   43.53   |   61.60   |   61.40   |   60.15   |   58.97   |   57.14   |

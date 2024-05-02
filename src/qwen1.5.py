@@ -9,6 +9,36 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers.generation import GenerationConfig
 
 
+def is_eval_success(args) -> bool:
+    """judege if eval task is success by checking the result dir"""
+    subjects = sorted(
+        [f.split(".csv")[0] for f in os.listdir(os.path.join(args.data_dir, "test/"))]
+    )
+    abs_save_dir = f"{args.save_dir}_{args.num_few_shot}_shot"
+    if not os.path.exists(abs_save_dir):
+        return False
+    for subject in subjects:
+        out_file = os.path.join(abs_save_dir, f"results_{subject}.csv")
+        if not os.path.exists(out_file):
+            # If any result file NOT exist, the eval isn't finished
+            return False
+    return True
+
+
+def init_model(args):
+    """Initialize models"""
+    model = AutoModelForCausalLM.from_pretrained(
+        args.model_name_or_path,
+        trust_remote_code=True,
+        device_map="auto",
+        torch_dtype=torch.float16,
+    )
+    model.generation_config = GenerationConfig.from_pretrained(
+        args.model_name_or_path, trust_remote_code=True
+    )
+    return model
+
+
 def eval(model, tokenizer, subject, dev_df, test_df, num_few_shot, max_length, cot):
     choice_ids = [tokenizer(choice)["input_ids"][0] for choice in choices]
     cors = []
@@ -52,7 +82,7 @@ def eval(model, tokenizer, subject, dev_df, test_df, num_few_shot, max_length, c
 def eval_chat(
     model, tokenizer, subject, dev_df, test_df, num_few_shot, max_length, cot
 ):
-    """ eval Qwen/Qwen1.5-7B-Chat
+    """eval Qwen/Qwen1.5-7B-Chat
     ref: https://github.com/QwenLM/Qwen1.5?tab=readme-ov-file#quickstart
     """
     cors = []
@@ -112,19 +142,14 @@ if __name__ == "__main__":
     parser.add_argument("--cot", action="store_true")
     args = parser.parse_args()
 
-    # Initialize models
     tokenizer = AutoTokenizer.from_pretrained(
         args.model_name_or_path, trust_remote_code=True
     )
-    model = AutoModelForCausalLM.from_pretrained(
-        args.model_name_or_path,
-        trust_remote_code=True,
-        device_map="auto",
-        torch_dtype=torch.float16
-    )
-    model.generation_config = GenerationConfig.from_pretrained(
-        args.model_name_or_path, trust_remote_code=True
-    )
+    if is_eval_success(args):
+        # eval finished, no need load model anymore, just show the result
+        model = None
+    else:
+        model = init_model(args)
 
     if "chat" in args.model_name_or_path.lower():
         run_eval(model, tokenizer, eval_chat, args)
