@@ -84,7 +84,7 @@ def run_eval(model, tokenizer, eval, args):
     subjects=sorted([f.split(".csv")[0] for f in os.listdir(os.path.join(args.data_dir, "test/"))])
     args.save_dir = f"{args.save_dir}_{args.num_few_shot}_shot"
     if not os.path.exists(args.save_dir):
-        os.mkdir(args.save_dir)
+        os.makedirs(args.save_dir)
 
     for subject in subjects:
         out_file = os.path.join(args.save_dir, f"results_{subject}.csv")
