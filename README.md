@@ -69,6 +69,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [QuarkLLM](https://www.quark.cn/)                                 |   70.97   |   85.20   |   82.88   |   82.71   |   81.12   |   80.27   |
 | [Galaxy](https://www.zuoyebang.com/)                              |   69.61   |   74.95   |   78.54   |   77.93   |   73.99   |   74.03   |
 | [KwaiYii-66B](https://github.com/kwai/KwaiYii)                    |   56.70   |   79.43   |   72.84   |   74.43   |   71.11   |   71.12   |
+| [FanFan-1.5B]()                                                   |   59.84   |   70.86   |   70.72   |   72.19   |   69.73   |   66.50   |
 | [Mengzi-7B](https://www.langboat.com/)                            |   49.59   |   75.27   |   71.36   |   70.52   |   69.23   |   66.41   |
 | [KwaiYii-13B](https://github.com/kwai/KwaiYii)                    |   46.54   |   69.22   |   64.49   |   65.09   |   63.10   |   61.73   |
 | [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   46.85   |   61.12   |   61.68   |   58.84   |   59.39   |   57.17   |
@@ -113,6 +114,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [KwaiYii-66B](https://github.com/kwai/KwaiYii)                    |   55.20   |   77.10   |   71.74   |   73.30   |   71.27   |   69.96   |
 | [Mengzi-7B](https://www.langboat.com/)                            |   49.49   |   75.84   |   72.32   |   70.87   |   70.00   |   66.88   |
 | [KwaiYii-13B](https://github.com/kwai/KwaiYii)                    |   46.82   |   69.35   |   63.42   |   64.02   |   63.26   |   61.22   |
+| [FanFan-1.5B]()                                                   |   54.02   |   64.53   |   63.22   |   67.09   |   62.57   |   61.03   |
 | [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   48.88   |   63.49   |   66.20   |   62.14   |   62.07   |   60.37   |
 | [MiLM-1.3B](https://github.com/XiaoMi/MiLM-6B/)                   |   40.51   |   54.82   |   54.15   |   53.99   |   52.26   |   50.79   |
 | Random                                                            |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |
