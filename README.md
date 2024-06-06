@@ -127,7 +127,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 * 如模型未开放公测，请发送测试代码到haonan.li@librai.tech，同时将测试结果更新在榜单，并提交拉取请求。我们会在验证结果的真实性之后更新榜单。
 
 ## 数据
-我们根据每个主题在[data](data)目录中提供了开发和测试数据集。您也可以通过[Hugging Face](https://huggingface.co/datasets/haonan-li/cmmlu)或取我们的数据。
+我们根据每个主题在[data](data)目录中提供了开发和测试数据集。您也可以通过[Hugging Face](https://huggingface.co/datasets/haonan-li/cmmlu)获取我们的数据。
 
 #### 快速使用
 
