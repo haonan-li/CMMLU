@@ -105,6 +105,7 @@ The following table displays the performance of models in the five-shot and zero
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   25.68   |   26.35   |   27.21   |   27.92   |   26.70   |   26.88   |
 | Models with Limited Access |
 | [BlueLM]()                                                        | **76.36** | **90.34** | **86.23** | **86.94** | **86.84** | **84.68** |
+| [DiMind]()                                                        | **70.92** | **86.66** | **86.04** | **86.60** | **81.49** | **82.73** |
 | [云天天书]()                                                       |   73.03   |   83.78   |   82.30   |   84.04   |   81.37   |   80.62   |
 | [Mind GPT]()                                                      |   71.20   |   83.95   |   80.59   |   82.11   |   78.90   |   79.20   |
 | [QuarkLLM](https://www.quark.cn/)                                 |   67.23   |   81.69   |   79.47   |   80.74   |   77.00   |   77.08   |
