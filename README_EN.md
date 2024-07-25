@@ -34,7 +34,8 @@ Note: if you need Ancient Chiense Evaluation, please refer to [ACLUE](https://gi
 
 The following table displays the performance of models in the five-shot and zero-shot settings. 
 
-#### Five-shot
+<details>
+<summary>Five-shot</summary>
 
 | Model               | STEM | Humanities | Social Science | Other | China-specific | Average |
 |---------------------|------|------------|----------------|-------|----------------|---------|
@@ -73,9 +74,10 @@ The following table displays the performance of models in the five-shot and zero
 | [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   46.85   |   61.12   |   61.68   |   58.84   |   59.39   |   57.17   |
 | [MiLM-1.3B](https://github.com/XiaoMi/MiLM-6B/)                   |   35.59   |   49.58   |   49.03   |   47.56   |   48.17   |   45.39   |
 | Random                                                            |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |
+</details>
 
-
-#### Zero-shot
+<details>
+<summary>Zero-shot</summary>
 
 | Model               | STEM | Humanities | Social Science | Other | China-specific | Average |
 |---------------------|------|------------|----------------|-------|----------------|---------|
@@ -117,7 +119,7 @@ The following table displays the performance of models in the five-shot and zero
 | [MiLM-6B](https://github.com/XiaoMi/MiLM-6B/)                     |   48.88   |   63.49   |   66.20   |   62.14   |   62.07   |   60.37   |
 | [MiLM-1.3B](https://github.com/XiaoMi/MiLM-6B/)                   |   40.51   |   54.82   |   54.15   |   53.99   |   52.26   |   50.79   |
 | Random                                                            |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |   25.00   |
-
+</details>
 
 ## How to submit 
 
