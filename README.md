@@ -49,6 +49,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [Qwen1.5-7B](https://github.com/QwenLM/Qwen1.5)                   |   63.64   |   76.42   |   74.69   |   75.91   |   73.43   |   72.50   |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   60.74   |   77.79   |   75.47   |   70.81   |   70.92   |   71.10   |
 | [GPT4](https://openai.com/gpt4)                                   |   65.23   |   72.11   |   72.06   |   74.79   |   66.12   |   70.95   |
+| [Llama-3.1-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct)  |   55.05   |   66.62   |   66.08   |   70.50   |   61.65   |   64.38   |
 | [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.07   |	66.32	|   64.11   |   59.99	|   60.55	|   60.05   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   48.39   |   63.77   |   61.22   |   62.14   |   58.73   |   58.66   |
 | [ZhiLu-13B](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu)   |   44.26   |   61.54   |   60.25   |   61.14   |   57.14   |   57.16   |
@@ -61,6 +62,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [ChatGLM-6B](https://github.com/THUDM/GLM-130B)                   |   32.35   |   39.22   |   39.65   |   38.62   |   37.70   |   37.48   |
 | [BatGPT-15B](https://arxiv.org/abs/2307.00360)                    |   34.96   |   35.45   |   36.31   |   42.14   |   37.89   |   37.16   |
 | [BLOOMZ-7B](https://github.com/bigscience-workshop/xmtf)          |   30.56   |   39.10   |   38.59   |   40.32   |   37.15   |   37.04   |
+| [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) |   30.10   |   39.38   |   32.93   |   48.05   |   37.17   |   36.85   |
 | [Chinese-LLaMA-13B](https://github.com/ymcui/Chinese-LLaMA-Alpaca)|   27.12   |   33.18   |   34.87   |   35.10   |   32.97   |   32.63   |
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   27.52   |   32.47   |   32.27   |   35.77   |   31.56   |   31.88   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   27.23   |   30.41   |   28.84   |   32.56   |   28.68   |   29.57   |
@@ -94,7 +96,9 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   62.08   |   81.29   |   79.38   |   79.56   |   77.69   |   75.40   |
 | [Qwen1.5-7B](https://github.com/QwenLM/Qwen1.5)                   |   62.87   |   74.90   |   72.65   |   74.64   |   71.94   |   71.05   |
 | [XuanYuan-70B](https://huggingface.co/Duxiaoman-DI/XuanYuan-70B)  |   61.21   |   76.25   |   74.44   |   70.67   |   69.35   |   70.59   |
+| [Llama-3.1-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct)  |   61.60   |   71.44   |   69.42   |   74.72   |   63.79   |   69.01   |
 | [GPT4](https://openai.com/gpt4)                                   |   63.16   |   69.19   |   70.26   |   73.16   |   63.47   |   68.90   |
+| [Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) |   57.02   |   67.87   |   68.67   |   73.95   |   62.96   |   66.74   |
 | [XuanYuan-13B](https://github.com/Duxiaoman-DI/XuanYuan)          |   50.22   |	67.55	|   63.85	|   61.17   |   61.50	|   60.51   |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                      |   46.33   |   62.54   |   60.48   |   61.72   |   58.77   |   57.57   |
 | [ZhiLu-13B](https://github.com/SYSU-MUCFC-FinTech-Research-Center/ZhiLu)  |   43.53   |   61.60   |   61.40   |   60.15   |   58.97   |   57.14   |
