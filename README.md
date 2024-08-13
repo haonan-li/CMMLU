@@ -42,6 +42,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | 开放测试的模型 |
 | [Qwen2-72B](https://huggingface.co/Qwen/Qwen2-72B-Instruct)       | **82.80** | **93.84** | **90.38** | **92.71** | **90.60** | **89.65** |
 | [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    |   81.59   |   92.41   |   89.14   |   91.19   |   89.02   |   88.32   |
+| [JIUTIAN-13.9B](https://www.modelscope.cn/models/jiutian-ai/jiutian-139moe-chat)  |   80.14   |   91.40   |   88.57   |   90.32   |   88.14   |   87.37   |
 | [Qwen1.5-72B](https://modelscope.cn/models/qwen/Qwen1.5-72B)      |   76.83   |   88.37   |   84.15   |   86.06   |   83.77   |   83.54   |
 | [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.85   |   86.46   |   81.65   |   84.57   |   82.85   |   82.46   |
 | [Qwen1.5-32B](https://modelscope.cn/models/qwen/Qwen1.5-32B)      |   76.25   |   86.31   |   83.42   |   83.82   |   82.84   |   82.25   |
