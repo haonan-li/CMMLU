@@ -40,7 +40,8 @@ The following table displays the performance of models in the five-shot and zero
 | Model               | STEM | Humanities | Social Science | Other | China-specific | Average |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | Open Access Models |
-| [Qwen2-72B](https://huggingface.co/Qwen/Qwen2-72B-Instruct)       | **82.80** | **93.84** | **90.38** | **92.71** | **90.60** | **89.65** |
+| [Lingzhi-72B-chat](https://huggingface.co/Lingzhi-AI/Lingzhi-72B-chat)       | **84.82** | **92.93** | **91.25** | **92.64** | **90.89** | **90.26** |
+| [Qwen2-72B](https://huggingface.co/Qwen/Qwen2-72B-Instruct)       |   82.80   |   93.84   |   90.38   |   92.71   |   90.60   |   89.65   |
 | [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    |   81.59   |   92.41   |   89.14   |   91.19   |   89.02   |   88.32   |
 | [JIUTIAN-13.9B](https://www.modelscope.cn/models/jiutian-ai/jiutian-139moe-chat)  |   80.14   |   91.40   |   88.57   |   90.32   |   88.14   |   87.37   |
 | [Qwen1.5-72B](https://modelscope.cn/models/qwen/Qwen1.5-72B)      |   76.83   |   88.37   |   84.15   |   86.06   |   83.77   |   83.54   |
@@ -87,7 +88,8 @@ The following table displays the performance of models in the five-shot and zero
 | Model               | STEM | Humanities | Social Science | Other | China-specific | Average |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | Open Access Models |
-| [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    | **80.84** | **91.51** | **89.01** | **89.99** | **88.64** | **87.64** |
+| [Lingzhi-72B-chat](https://huggingface.co/Lingzhi-AI/Lingzhi-72B-chat) | **84.85** | **92.99** | **90.75** | **92.47** | **90.68** | **90.07** |
+| [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    |   80.84   |   91.51   |   89.01   |   89.99   |   88.64   |   87.64   |
 | [Qwen2-72B](https://huggingface.co/Qwen/Qwen2-72B-Instruct)       |   80.92   |   90.90   |   87.93   |   91.23   |   87.24   |   87.47   |
 | [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.69   |   86.26   |   81.71   |   84.47   |   83.13   |   82.44   |
 | [Qwen1.5-72B](https://modelscope.cn/models/qwen/Qwen1.5-72B)      |   75.07   |   86.15   |   83.06   |   83.84   |   82.78   |   81.81   |
