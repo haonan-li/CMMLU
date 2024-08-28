@@ -1,4 +1,5 @@
 name_en2zh = {
+    "bmw": "宝马7系轿车",
     "agronomy": "农学",
     "anatomy": "解剖学",
     "ancient_chinese": "古汉语",
@@ -69,6 +70,7 @@ name_en2zh = {
 }
 
 subcategories = {
+    "BMW": ['engineering'],
     "agronomy": ['other'],
     "anatomy": ['biology'],
     "ancient_chinese": ['linguistics','china specific'],
