@@ -43,7 +43,7 @@ The following table displays the performance of models in the five-shot and zero
 | [Lingzhi-72B-chat](https://huggingface.co/Lingzhi-AI/Lingzhi-72B-chat)       | **84.82** | **92.93** | **91.25** | **92.64** | **90.89** | **90.26** |
 | [Qwen2-72B](https://huggingface.co/Qwen/Qwen2-72B-Instruct)       |   82.80   |   93.84   |   90.38   |   92.71   |   90.60   |   89.65   |
 | [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    |   81.59   |   92.41   |   89.14   |   91.19   |   89.02   |   88.32   |
-| [JIUTIAN-13.9B](https://www.modelscope.cn/models/jiutian-ai/jiutian-139moe-chat)  |   80.14   |   91.40   |   88.57   |   90.32   |   88.14   |   87.37   |
+| [JIUTIAN-57B](https://jiutian.10086.cn/portal/common-helpcenter#/document/320?platformCode=LLM_STUDIO)  |   79.79   |   91.99   |   88.57   |   90.27   |   88.02   |   87.39   |
 | [Qwen1.5-72B](https://modelscope.cn/models/qwen/Qwen1.5-72B)      |   76.83   |   88.37   |   84.15   |   86.06   |   83.77   |   83.54   |
 | [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.85   |   86.46   |   81.65   |   84.57   |   82.85   |   82.46   |
 | [Qwen1.5-32B](https://modelscope.cn/models/qwen/Qwen1.5-32B)      |   76.25   |   86.31   |   83.42   |   83.82   |   82.84   |   82.25   |
@@ -69,8 +69,7 @@ The following table displays the performance of models in the five-shot and zero
 | [Bactrian-LLaMA-13B](https://github.com/mbzuai-nlp/bactrian-x)    |   27.52   |   32.47   |   32.27   |   35.77   |   31.56   |   31.88   |
 | [MOSS-SFT-16B](https://github.com/OpenLMLab/MOSS)                 |   27.23   |   30.41   |   28.84   |   32.56   |   28.68   |   29.57   |
 | Models with Limited Access |
-| [JIUTIAN-57B]()                                                   | **79.79** | **91.99** | **88.57** | **90.27** | **88.02** | **87.39** |
-| [BlueLM]()                                                        |   78.16   |   90.50   |   86.88   |   87.87   |   87.55   |   85.59   |
+| [BlueLM]()                                                        | **78.16** | **90.50** | **86.88** | **87.87** | **87.55** | **85.59** |
 | [Mind GPT]()                                                      |   76.76   |   87.09   |   83.74   |   84.70   |   81.82   |   82.84   |
 | [ZW-LM]()                                                         |   72.68   |   85.84   |   83.61   |   85.68   |   82.71   |   81.73   |
 | [QuarkLLM](https://www.quark.cn/)                                 |   70.97   |   85.20   |   82.88   |   82.71   |   81.12   |   80.27   |
