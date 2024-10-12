@@ -39,17 +39,6 @@ def init_model(args):
     return model
 
 
-def get_input_ids(tokenizer,history_input_list,history_output_list,input_str):
-    sentence_ids = [1]
-    assert len(history_input_list) == len(history_output_list)
-    for i in range(len(history_input_list)):
-        input_ids = [4] + tokenizer(history_input_list[i])["input_ids"]
-        output_ids = [5] + tokenizer(history_output_list[i])["input_ids"] + [2]
-        sentence_ids += input_ids + output_ids
-    sentence_ids += [4]+tokenizer(input_str)["input_ids"]+[5]
-    return torch.tensor([sentence_ids])
-
-
 def eval_instruct(
     model, tokenizer, subject, dev_df, test_df, num_few_shot, max_length, cot
 ):
