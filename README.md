@@ -40,7 +40,8 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | 模型                 | STEM  | 人文学科 | 社会科学 | 其他  | 中国特定主题 | 平均分  |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | 开放测试的模型 |
-| [Lingzhi-72B-chat](https://huggingface.co/Lingzhi-AI/Lingzhi-72B-chat)       | **84.82** | **92.93** | **91.25** | **92.64** | **90.89** | **90.26** |
+| [Lingzhi-72B-chat](https://huggingface.co/Lingzhi-AI/Lingzhi-72B-chat)       | **84.82** | 92.93 | **91.25** | **92.64** | **90.89** | **90.26** |
+| [Spark 4.0-2024-10-14](https://xinghuo.xfyun.cn/sparkapi)       | 84.75 | **93.53** | 90.64 | 91.03 | 90.09 | 90.07 |
 | [Qwen2-72B](https://huggingface.co/Qwen/Qwen2-72B-Instruct)       |   82.80   |   93.84   |   90.38   |   92.71   |   90.60   |   89.65   |
 | [Jiutian-大模型](https://jiutian.10086.cn/portal/common-helpcenter#/document/320?platformCode=LLM_STUDIO)  |   80.58   |   93.33   |   89.81   |   91.79   |   89.8   |   88.59   |
 | [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    |   81.59   |   92.41   |   89.14   |   91.19   |   89.02   |   88.32   |
@@ -92,7 +93,8 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | 模型                 | STEM  | 人文学科 | 社会科学 | 其他  | 中国特定主题 | 平均分  |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | 开放测试的模型 |
-| [Lingzhi-72B-chat](https://huggingface.co/Lingzhi-AI/Lingzhi-72B-chat) | **84.85** | **92.99** | **90.75** | **92.47** | **90.68** | **90.07** |
+| [Spark 4.0-2024-10-14](https://xinghuo.xfyun.cn/sparkapi)       | **87.36** | **93.97** | 90.03 | **92.71** | 90.4 | **90.97** |
+| [Lingzhi-72B-chat](https://huggingface.co/Lingzhi-AI/Lingzhi-72B-chat) | 84.85 | 92.99 | **90.75** | 92.47 | **90.68** | 90.07 |
 | [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    |   80.84   |   91.51   |   89.01   |   89.99   |   88.64   |   87.64   |
 | [Qwen2-72B](https://huggingface.co/Qwen/Qwen2-72B-Instruct)       |   80.92   |   90.90   |   87.93   |   91.23   |   87.24   |   87.47   |
 | [Qwen2.5-72B](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)   |   80.67   |   87.00   |   84.66  |    87.35   |   83.21  |    84.70   |
