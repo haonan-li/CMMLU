@@ -47,6 +47,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    |   81.59   |   92.41   |   89.14   |   91.19   |   89.02   |   88.32   |
 | [JIUTIAN-57B](https://jiutian.10086.cn/portal/common-helpcenter#/document/320?platformCode=LLM_STUDIO)  |   79.79   |   91.99   |   88.57   |   90.27   |   88.02   |   87.39   |
 | [Qwen2.5-72B](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)   |   80.35   |   88.41   |   85.96   |   86.06   |   88.91   |   85.67   |
+| Youyuanjian  |   76.34 |   88.38   |   84.74   |   86.57   |   83.89   |   83.72   |
 | [Qwen1.5-72B](https://modelscope.cn/models/qwen/Qwen1.5-72B)      |   76.83   |   88.37   |   84.15   |   86.06   |   83.77   |   83.54   |
 | [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.85   |   86.46   |   81.65   |   84.57   |   82.85   |   82.46   |
 | [Qwen1.5-32B](https://modelscope.cn/models/qwen/Qwen1.5-32B)      |   76.25   |   86.31   |   83.42   |   83.82   |   82.84   |   82.25   |
@@ -101,6 +102,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.69   |   86.26   |   81.71   |   84.47   |   83.13   |   82.44   |
 | [Qwen1.5-72B](https://modelscope.cn/models/qwen/Qwen1.5-72B)      |   75.07   |   86.15   |   83.06   |   83.84   |   82.78   |   81.81   |
 | [Qwen1.5-32B](https://modelscope.cn/models/qwen/Qwen1.5-32B)      |   74.82   |   85.13   |   82.49   |   84.34   |   82.47   |   81.47   |
+| Youyuanjian     |   73.34   |   85.43   |   82.37  |   84.67   |   81.21   |   81.19   |
 | [ZhiLu-2-8B](https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center/ZhiLu-2-8B-Instruct)   |   74.32  |   83.33   |   81.06   |   83.78   |   78.58   |   79.95   |
 | [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   62.08   |   81.29   |   79.38   |   79.56   |   77.69   |   75.40   |
 | [Qwen1.5-7B](https://github.com/QwenLM/Qwen1.5)                   |   62.87   |   74.90   |   72.65   |   74.64   |   71.94   |   71.05   |
