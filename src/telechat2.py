@@ -8,7 +8,6 @@ from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers.generation import GenerationConfig
 
-
 def is_eval_success(args) -> bool:
     """judege if eval task is success by checking the result dir"""
     subjects = sorted(
@@ -42,8 +41,8 @@ def init_model(args):
 def eval_instruct(
     model, tokenizer, subject, dev_df, test_df, num_few_shot, max_length, cot
 ):
-    """eval TeleAI/TeleChat2-115B
-    ref: https://modelscope.cn/models/TeleAI/TeleChat2-115B
+    """eval TeleAI/TeleChat2-35B
+    ref: https://modelscope.cn/models/TeleAI/TeleChat2-35B-Nov
     """
     cors = []
     all_preds = []
@@ -61,9 +60,22 @@ def eval_instruct(
             cot=cot,
         )
         label = test_df.iloc[i, test_df.shape[1] - 1]
+        text = tokenizer.apply_chat_template(
+            [{"role": "user", "content": prompt}],
+            tokenize=False,
+            add_generation_prompt=True
+        )
+        
+        model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
 
-        pred, history = model.chat(tokenizer, prompt)
+        generated_ids = model.generate(model_inputs.input_ids, max_new_tokens=512)
+        generated_ids = [
+            output_ids[len(input_ids) :]
+            for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
+        ]
 
+        pred = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+        # pred, history = model.chat(tokenizer, prompt, history=None)
 
         if pred and pred[0] in choices:
             cors.append(pred[0] == label)
@@ -83,7 +95,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, default="")
     parser.add_argument("--data_dir", type=str, default="../data")
-    parser.add_argument("--save_dir", type=str, default="../results/TeleChat2-115B")
+    parser.add_argument("--save_dir", type=str, default="../results/TeleChat2-35B")
     parser.add_argument("--num_few_shot", type=int, default=0)
     parser.add_argument("--max_length", type=int, default=2048)
     parser.add_argument("--cot", action="store_true")
@@ -99,4 +111,3 @@ if __name__ == "__main__":
         model = init_model(args)
 
     run_eval(model, tokenizer, eval_instruct, args)
-
