@@ -40,12 +40,15 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | 模型                 | STEM  | 人文学科 | 社会科学 | 其他  | 中国特定主题 | 平均分  |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | 开放测试的模型 |
-| [Lingzhi-72B-chat](https://huggingface.co/Lingzhi-AI/Lingzhi-72B-chat)       | **84.82** | **92.93** | **91.25** | **92.64** | **90.89** | **90.26** |
+| [Lingzhi-72B-chat](https://huggingface.co/Lingzhi-AI/Lingzhi-72B-chat)       | **84.82** | 92.93 | **91.25** | 92.64 | **90.89** | **90.26** |
+| [Telechat2-35B](https://modelscope.cn/models/TeleAI/TeleChat2-35B-Nov) | 83.59 | 93.69 | 90.99 | **93.34** | 87.89 | 90.16 |
+| [Spark 4.0-2024-10-14](https://xinghuo.xfyun.cn/sparkapi)       | 84.75 | **93.53** | 90.64 | 91.03 | 90.09 | 90.07 |
 | [Qwen2-72B](https://huggingface.co/Qwen/Qwen2-72B-Instruct)       |   82.80   |   93.84   |   90.38   |   92.71   |   90.60   |   89.65   |
 | [Jiutian-大模型](https://jiutian.10086.cn/portal/common-helpcenter#/document/320?platformCode=LLM_STUDIO)  |   80.58   |   93.33   |   89.81   |   91.79   |   89.8   |   88.59   |
 | [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    |   81.59   |   92.41   |   89.14   |   91.19   |   89.02   |   88.32   |
 | [JIUTIAN-57B](https://jiutian.10086.cn/portal/common-helpcenter#/document/320?platformCode=LLM_STUDIO)  |   79.79   |   91.99   |   88.57   |   90.27   |   88.02   |   87.39   |
 | [Qwen2.5-72B](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)   |   80.35   |   88.41   |   85.96   |   86.06   |   88.91   |   85.67   |
+| Youyuanjian  |   76.34 |   88.38   |   84.74   |   86.57   |   83.89   |   83.72   |
 | [Qwen1.5-72B](https://modelscope.cn/models/qwen/Qwen1.5-72B)      |   76.83   |   88.37   |   84.15   |   86.06   |   83.77   |   83.54   |
 | [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.85   |   86.46   |   81.65   |   84.57   |   82.85   |   82.46   |
 | [Qwen1.5-32B](https://modelscope.cn/models/qwen/Qwen1.5-32B)      |   76.25   |   86.31   |   83.42   |   83.82   |   82.84   |   82.25   |
@@ -92,13 +95,16 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | 模型                 | STEM  | 人文学科 | 社会科学 | 其他  | 中国特定主题 | 平均分  |
 |---------------------|------|------------|----------------|-------|----------------|---------|
 | 开放测试的模型 |
-| [Lingzhi-72B-chat](https://huggingface.co/Lingzhi-AI/Lingzhi-72B-chat) | **84.85** | **92.99** | **90.75** | **92.47** | **90.68** | **90.07** |
+| [Spark 4.0-2024-10-14](https://xinghuo.xfyun.cn/sparkapi)       | **87.36** | **93.97** | 90.03 | 92.71 | 90.4 | **90.97** |
+| [Telechat2-35B](https://modelscope.cn/models/TeleAI/TeleChat2-35B-Nov) | 84.01 | 93.16 | **91.96** | **93.34** | 88.39 | 90.49 |
+| [Lingzhi-72B-chat](https://huggingface.co/Lingzhi-AI/Lingzhi-72B-chat) | 84.85 | 92.99 | 90.75 | 92.47 | **90.68** | 90.07 |
 | [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    |   80.84   |   91.51   |   89.01   |   89.99   |   88.64   |   87.64   |
 | [Qwen2-72B](https://huggingface.co/Qwen/Qwen2-72B-Instruct)       |   80.92   |   90.90   |   87.93   |   91.23   |   87.24   |   87.47   |
 | [Qwen2.5-72B](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)   |   80.67   |   87.00   |   84.66  |    87.35   |   83.21  |    84.70   |
 | [PCI-TransGPT](http://123.249.36.167/call-frontend/#/transGpt)    |   76.69   |   86.26   |   81.71   |   84.47   |   83.13   |   82.44   |
 | [Qwen1.5-72B](https://modelscope.cn/models/qwen/Qwen1.5-72B)      |   75.07   |   86.15   |   83.06   |   83.84   |   82.78   |   81.81   |
 | [Qwen1.5-32B](https://modelscope.cn/models/qwen/Qwen1.5-32B)      |   74.82   |   85.13   |   82.49   |   84.34   |   82.47   |   81.47   |
+| Youyuanjian     |   73.34   |   85.43   |   82.37  |   84.67   |   81.21   |   81.19   |
 | [ZhiLu-2-8B](https://huggingface.co/SYSU-MUCFC-FinTech-Research-Center/ZhiLu-2-8B-Instruct)   |   74.32  |   83.33   |   81.06   |   83.78   |   78.58   |   79.95   |
 | [BlueLM-7B](https://github.com/vivo-ai-lab/BlueLM)                |   62.08   |   81.29   |   79.38   |   79.56   |   77.69   |   75.40   |
 | [Qwen1.5-7B](https://github.com/QwenLM/Qwen1.5)                   |   62.87   |   74.90   |   72.65   |   74.64   |   71.94   |   71.05   |
