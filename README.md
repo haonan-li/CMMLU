@@ -44,7 +44,7 @@ CMMLU是一个综合性的中文评估基准，专门用于评估语言模型在
 | [Telechat2-35B](https://modelscope.cn/models/TeleAI/TeleChat2-35B-Nov) | 83.59 | 93.69 | 90.99 | **93.34** | 87.89 | 90.16 |
 | [Spark 4.0-2024-10-14](https://xinghuo.xfyun.cn/sparkapi)       | 84.75 | **93.53** | 90.64 | 91.03 | 90.09 | 90.07 |
 | [Qwen2-72B](https://huggingface.co/Qwen/Qwen2-72B-Instruct)       |   82.80   |   93.84   |   90.38   |   92.71   |   90.60   |   89.65   |
-| [Jiutian-大模型](https://jiutian.10086.cn/portal/common-helpcenter#/document/320?platformCode=LLM_STUDIO)  |   80.58   |   93.33   |   89.81   |   91.79   |   89.8   |   88.59   |
+| [Jiutian-大模型](https://jiutian.10086.cn/qdlake/qdh-web/#/model/detail/1241)  |   80.58   |   93.33   |   89.81   |   91.79   |   89.8   |   88.59   |
 | [Qwen1.5-110B](https://modelscope.cn/models/qwen/Qwen1.5-110B)    |   81.59   |   92.41   |   89.14   |   91.19   |   89.02   |   88.32   |
 | [JIUTIAN-57B](https://jiutian.10086.cn/portal/common-helpcenter#/document/320?platformCode=LLM_STUDIO)  |   79.79   |   91.99   |   88.57   |   90.27   |   88.02   |   87.39   |
 | [Qwen2.5-72B](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)   |   80.35   |   88.41   |   85.96   |   86.06   |   88.91   |   85.67   |
